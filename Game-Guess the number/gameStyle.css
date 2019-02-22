@@ -1,0 +1,85 @@
+.slider {
+	width: 1024px;
+	height: 512px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+
+}
+
+.polosa {
+	background: #DEDEDE;
+	width: 3584px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+	top: 0;
+}
+
+.polosa img {
+	float: left;
+
+}
+
+.polosa::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider-left {
+	position: absolute;
+	width: 128px;
+	background: green;
+	color: yellow;
+}
+#slider-right {
+	position: absolute;
+	right: 445px;
+	width: 128px;
+	background: green;
+	color: yellow;
+}
+
+h1 {
+	text-align: center;
+	font-size: 75px;
+	text-shadow: 12px 35px 10px green;
+	
+}
+
+p {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+
+#labelHint {
+  -webkit-animation: blink2 0.5s linear infinite;
+  animation: blink2 1s linear infinite;
+  cursor: pointer;
+  margin-top: 20px;
+}
+@-webkit-keyframes blink2 {
+  100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink2 {
+  100% { color: rgba(34, 34, 34, 0); }
+}
+
+#test {
+	width: 150px;
+	height: 150px;
+	background-color: RGB(200, 255, 255);
+	margin: 30px;
+	position: relative;
+}
+
+#out {
+	width: 350px;
+	height: 120px;
+	margin: 20px;
+	font-size: 20px;
+
+}
+
