@@ -1,12 +1,12 @@
 .slider {
 	width: 768px;
 	height: 256px;
-	border: 5px solid black;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;;
 	margin: 50px auto;
 	overflow: hidden;
-
+	position: relative;
 }
-
 
 .polosa {
 	background: #DEDEDE;
@@ -31,12 +31,12 @@
 #slider-left {
 	position: absolute;
 	width: 30px;
-	height: 268px;
+	height: 266px;
 	background: black;
 	color: yellow;
 	border: 1px solid white;
-	left: 542px;
-	top: 49px;
+	left: -3px;
+	top: -5px;
 	text-align: center;
 	font-size: 18px;
 	word-wrap: break-word;
@@ -46,16 +46,17 @@
 #slider-right {
 	position: absolute;
 	width: 30px;
-	height: 268px;
+	height: 266px;
 	background: black;
 	color: yellow;
 	border: 1px solid white;
-	right: 542px;
-	top: 49px;
+	right: -3px;
+	top: -5px;
 	text-align: center;
 	font-size: 18px;
 	word-wrap: break-word;
 	cursor: pointer;
+	overflow: visible;
 }
 
 #slider-right:hover, #slider-left:hover {
