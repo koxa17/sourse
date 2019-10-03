@@ -1,0 +1,116 @@
+/*button{
+	margin: 0 10px 10px 0;
+}
+
+#testBox{
+	margin-top: 10px;
+	width: 450px;
+	height: 100px;
+	background: green;
+	position: relative;
+}
+.red {
+	background: red;
+
+}*/
+
+.imageHolder {
+ 
+ width: 350px;
+
+ height: 350px;
+	
+ display: flex;
+
+ justify-content: center;
+
+ margin-top: 50px;
+
+ cursor: pointer;
+
+}
+
+
+
+.colorsSelector {
+
+ display: flex;
+
+ margin-top: 20px;
+
+}
+
+
+
+.colorWhite {
+
+ width: 50px;
+
+ height: 50px;
+
+ border-radius: 25px;
+
+ background: #999;
+
+}
+
+
+
+.colorBlack {
+
+ width: 50px;
+
+ height: 50px;
+
+ border-radius: 25px;
+
+ background: black;
+
+}
+
+
+
+.colorOrange {
+
+ width: 50px;
+
+ height: 50px;
+
+ border-radius: 25px;
+
+ background: orange;
+
+}
+
+
+
+.colorBlue {
+
+ width: 50px;
+
+ height: 50px;
+
+ border-radius: 25px;
+
+ background: blue;
+
+}
+
+
+
+.colorRed {
+
+ width: 50px;
+
+ height: 50px;
+
+ border-radius: 25px;
+
+ background: yellow;
+
+}
+
+.colorItem {
+	padding: 50px;
+	margin: 10px
+}
