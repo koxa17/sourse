@@ -34,5 +34,17 @@ $(function(){
 		alert(showText);
 	});
 
+	//Замена тега, с сохранением содержимого
+	$('h1').on('dblclick', function(){
+		$('h1').replaceWith(function(){
+			return $('<h3/>', {html: $(this).html()
+			});
+		});
+	});
+
+	$('img').on('click', function(){
+		$(this).hide('slow');
+	});	
+
 
 });
