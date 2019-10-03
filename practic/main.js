@@ -30,7 +30,8 @@ $(function(){
 
 	$('form input[type="submit"]').on('click', function(e){
 		e.preventDefault();
-		
+		let showText = $('input[type="text"]').val();
+		alert(showText);
 	});
 
 
