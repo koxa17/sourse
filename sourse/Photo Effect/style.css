@@ -1,0 +1,26 @@
+#myslide {
+	width: 375px;
+	height: 440px;
+	border: 3px solid black;
+	position: relative; /*relativ что бы позиционировать другие блоки относительно этого блока*/
+	overflow: hidden; /*Обрезать все что выступает пределы блока*/
+	margin: 0 auto;
+}
+
+#one, #two {
+	width: 375px;
+	height: 440px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+
+}
+
+#one {
+	background: yellow;
+}
+
+#two {
+	background: blue;
+}
