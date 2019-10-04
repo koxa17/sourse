@@ -71,5 +71,11 @@ $(function(){
 	$('button#customP').on('click', function(){
 		$('p').prepend('Добавить в начало каждого абзаца ');
 	});
+	// Удалить все <br>. (remove();полное удаление and detach();с поледующим возвратом)
+	$('#delBr').on('click', function(){
+		$('br').detach();
+	});
+
+
 
 });
