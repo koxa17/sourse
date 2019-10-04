@@ -4,6 +4,57 @@
 	line-height: 1.5;
 }
 
+.header {
+	background: #343c4e;
+	background-image: url("../images/bg/bg-header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	height: 100vh;
+
+	color: white;
+	text-align: center;
+
+	display: flex;
+	/*расположение контента в нутри флекс бокса - в ряд или в столбец*/
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+
+.header_title {
+	font-size: 56px;
+	line-height: 62px;
+	margin-bottom: 30px;
+	font-family: 'Merriweather', serif;
+	margin-top: -50px;
+}
+
+.header_slogan {
+	font-size: 28px;
+	line-height: 42px;
+}
+
+.header_arrow{
+	width: 60px;
+	height: 50px;
+	margin-left: -30px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+}
+
+/*Если не работают иконки, указать для них семейство шрифтов 'i' заменил на свой тэг так как i - это италика(курсив)*/
+iA {
+	font-family: fontawesome !important;
+	font-size: 48px;
+
+}
+
+
 
 
 
