@@ -46,5 +46,30 @@ $(function(){
 		$(this).hide('slow');
 	});	
 
+	//вывести в окно значение аттрибута(все что находится в нутри тега form)
+	$('form >').on('dblclick', function(){
+		let el = $(this).attr('type');
+		// alert(el);
+	});
+
+	$('#textarea').on('mouseenter', function(){
+		alert($(this).val());
+	});
+
+	$('button#addImg').on('click', function(){
+		$('div#imgAdd').html('<img src="images/img1.jpg" alt="Картинка" width="50" height="50">');
+	});
+	
+	//Скрыть и вывести тест в модальное окно
+	$('#invis').on('mouseenter', function(){
+		let textInvis = $(this).text();
+		$('#invis').fadeOut('slow');		
+		console.log(textInvis);
+	});
+
+	//добавить в начало каждого абзаца
+	$('button#customP').on('click', function(){
+		$('p').prepend('Добавить в начало каждого абзаца ');
+	});
 
 });
