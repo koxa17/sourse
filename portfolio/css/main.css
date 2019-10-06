@@ -88,7 +88,7 @@ img {
 /*Если не работают иконки, указать для них семейство шрифтов 'i' заменил на свой тэг так как i - это италика(курсив)*/
 iA {
 	font-family: fontawesome !important;
-	font-size: 48px;
+	
 
 }
 
@@ -142,11 +142,77 @@ iA {
 }
 
 
+/*<!--...........................
 
+				FOOTER
+	
+	.............................-->*/
 
+.footer	{
+	background-color: #061634;
+	color: #6479a2;
+	padding-top: 90px;
+	padding-bottom: 190px;
+}
 
+.footer p {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
 
+p.footer_name {
+	font-size: 28px;
+	margin-bottom: 10px;
+	line-height: normal;
+	font-family: 'Merriweather', serif;
+}
 
+p.footer_social {
+	color: #FFF;
+
+}
+
+p.footer_social-icons {
+	color: #FFF;
+	/*font-size: 32px;	*/
+}
+
+p.footer_social-icons a {
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+p.footer_social-icons a:last-child {
+	margin-right: 0;
+}
+
+p.footer_social-icons a:hover {
+	color: #FFE400;
+}
+
+.button {
+	font-weight: 700;
+	font-family: 'PT Sans Caption', sans-serif;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+
+	display: inline-block;
+
+	border: 2px solid #FFF;
+
+	border-radius: 50px;
+
+	padding: 8px 23px 8px 23px;
+	margin-bottom: 13px;
+}
+
+.button:hover {
+	color: #061634;
+	background-color: #FFF;
+}
 
 
 
