@@ -1,6 +1,12 @@
 $(function(){
 
-	
+	$('.testBut').on('click', function(){
+
+		$('h2:contains("jQuery")').replaceWith(function(){
+			return $('<h2/>', {html: $(this).html()});
+		});
+
+	});
 
 
 });
@@ -29,3 +35,18 @@ $(function(){
 // .before - добавить тег перед ul $('ul').before('<div>Блок после тега</div>');
 // .wrap - обернуть $('ul').wrap('<div></div>');
 // .unwrap - удалить обертку $('ul').unwrap();
+
+
+//Замена тега, с сохранением содержимого
+	// $('h1').on('dblclick', function(){
+	// 	$('h1').replaceWith(function(){
+	// 		return $('<h3/>', {html: $(this).html()
+	// 		});
+	// 	});
+	// });
+
+
+// Удалить все <br>. (remove();полное удаление and detach();с поледующим возвратом)
+	// $('#delBr').on('click', function(){
+	// 	$('br').detach();
+	// });
