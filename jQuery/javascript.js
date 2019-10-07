@@ -1,8 +1,7 @@
-$(document).ready(function(){
+$(function(){
 
-	$('li').html(function(index){
-		$(this).append(index);
-	});
+	
+
 
 });
 
