@@ -1,12 +1,16 @@
 $(function(){
 
 	$('.testBut').on('click', function(){
+		
+		$('p').replaceWith(function(){
 
-		$('h2:contains("jQuery")').replaceWith(function(){
-			return $('<h2/>', {html: $(this).html()});
-		});
+				return $('<h1/>', {html: $(this).html()});
+
+			});
 
 	});
+
+	
 
 
 });
