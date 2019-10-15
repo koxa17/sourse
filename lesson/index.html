@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Урок</title>
+	<style>
+		.table-item{
+			margin: 10px 0 10px 0;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<table border="1" class="first-table">
+	<tr>
+		<th>Столбец 1</th>
+		<th>Столбец 2</th>
+		<th>Столбец 3</th>
+		<th>Столбец 4</th>
+		<th>Столбец 5</th>
+		<th>Столбец 6</th>
+		<th>Столбец 7</th>
+		<th>Столбец 8</th>
+		<th>Столбец 9</th>
+		<th>Столбец 10</th>
+	</tr>
+	<tr>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+	</tr>
+	<tr>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+	</tr>
+	<tr>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+		<td>Данные</td>
+	</tr>
+	</table>
+
+	<table border="2" class="table-item">
+		<tr>
+			<td>
+				<table border="1" class="table-item-first">
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table border="1" class="table-item-second">
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+					<tr>
+						<td>Данные</td>
+						<td>Данные</td>
+						<td>Данные</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+<form action="#" method="POST">
+	<h2>Форма</h2>
+	<p>
+		<input type="text" class="name" id="name" placeholder="Имя">
+	</p>
+	<p>
+		<input type="email" class="email" id="email" placeholder="E-mail">
+	</p>
+	<p>
+		<input type="tel" class="tel" id="tel" placeholder="Телефон">
+	</p>
+	<div class="radioButtons">
+		<label for="radio">Да</label>
+		<input type="radio" id="radio" value="yes" name="boolean">
+
+		<label for="radioNo">Нет</label>
+		<input type="radio" id="radioNo" value="no" name="boolean">
+	</div>
+
+	<div class="checkbox-item">
+		<label for="monday">Понедельник</label>
+		<input type="checkbox" value="Понедельник" id="monday">
+
+		<label for="monday">Пятница</label>
+		<input type="checkbox" value="Пятница" id="friday">
+
+		<label for="saturday">Суббота</label>
+		<input type="checkbox" value="Суббота" id="saturday">
+	</div>
+
+	<textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообщение..." class="textMessage"></textarea>
+	
+	<input type="submit" value="Отправить" class="submitButton">
+
+	
+</form>
+
+</body>
+</html>
