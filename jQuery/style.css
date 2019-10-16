@@ -14,6 +14,10 @@
 
 }*/
 
+body {
+	background-color: white;
+}
+
 .imageHolder {
  
  width: 350px;
@@ -113,4 +117,8 @@
 .colorItem {
 	padding: 50px;
 	margin: 10px
+}
+
+ol {
+	list-style-type: decimal-leading-zero;
 }

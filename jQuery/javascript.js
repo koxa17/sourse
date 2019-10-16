@@ -1,22 +1,17 @@
 $(function(){
 
 	$('.testBut').on('click', function(){
-		
-		$('p').replaceWith(function(){
 
-				return $('<h1/>', {html: $(this).html()});
-
-			});
+		$('ol li').append('<p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod</p>');
 
 	});
 
-	
 
 
 });
 
 
-
+// isNaN() - определяет является ли литерал или переменная нечисловым значением (NaN) или нет.
 // parseInt - переобразовать в другой тип данных
 // val(); - значения
 // prevrentDefault - отменить стандартное поведение браузера
