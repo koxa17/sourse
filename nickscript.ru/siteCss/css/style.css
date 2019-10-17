@@ -1,0 +1,16 @@
+/*box-size: border-box; что бы не увеличивался блок за счет padding
+
+display: block; убрать точки списка по умолч.list-block
+
+фишка для флоутов
+
+.clearfix:after {
+	content: "";
+	display: table;
+	width: 100%;
+}*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
