@@ -1,11 +1,11 @@
 /*box-size: border-box; что бы не увеличивался блок за счет padding
 
-display: block; убрать точки списка по умолч.list-block
+display: block; убрать точки списка по умолч.list-item
 
-фишка для флоутов
+фишка для флоутов. Задаем главному родителю элементов обтикания
 
 .clearfix:after {
-	content: "";
+	content: '';
 	display: table;
 	width: 100%;
 }*/
@@ -13,4 +13,199 @@ display: block; убрать точки списка по умолч.list-block
 body {
 	margin: 0;
 	padding: 0;
+	font-family: Aria, Tahoma, sans-serif;
+	font-size: 15px;
+	
 }
+
+#header {
+	background-color: #22a2ec;
+	color: white;
+	font-weight: bold;
+	padding: 30px 45px; 
+}
+
+.logo {
+	font-size: 18px;
+	float: left;
+	margin-right: 127px;
+}
+
+.main-menu {
+	padding: 0;
+	margin: 0;
+
+}
+
+.menu-item {
+	float: left;
+	display: block;
+	margin-right: 27px;
+}
+
+.menu-item a {
+	color: white;
+}
+
+.phone {
+	float: right;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+}
+
+#first {
+	padding: 54px 45px 0 45px;
+}
+
+.text-card {
+	margin-top: 40px;
+}
+
+.item-card-first {
+	border: 1px solid #d6d6d6;
+	margin-right: 59px;			
+}
+
+.item-card-second {
+	border: 5px solid #d6d6d6;
+	margin-right: 59px;
+}
+
+.item-card-third {
+	box-shadow: 0 0 50px #d1d1d1;
+	border-radius: 10px;
+	
+}
+
+.card {
+	width: 357px;
+	height: 246px;
+	padding: 31px 29px;
+	float: left;
+	overflow: hidden;
+}
+
+#second {
+	padding: 54px 45px;
+}
+
+#second h2 {
+	margin: 0 0 42px 0;
+}
+
+form {
+	margin: 0 60px 41px 0;
+	float: left;
+}
+
+input {
+	width: 218px;
+	padding: 18px 22px;
+}
+
+
+textarea {
+	padding: 18px 22px;
+	width: 335px;
+	height: 104px;
+}
+
+button {
+	padding: 17px 47px;
+	background-color: #ebce0d;
+	border: none;
+	font-weight: bold;
+}
+
+button + p {
+	color: #84898d;
+	font-size: 12px;
+	margin: 22px 0 0 0;
+}
+
+.image-block {
+	background-color: #184c6b;
+	border-radius: 10px;
+	padding: 43px 44px 51px;
+	color: #c0ddee;
+	float: left;
+	height: 259px;
+}
+
+.description {
+	width: 318px;
+	height: 165px;
+	float: left;
+	margin: 0 60px 0 0;
+	line-height: 1.5;
+}
+
+img {
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+img + p {
+	margin: 0;
+}
+
+footer {
+	background-color: #22a2ec;
+	color: white;
+	font-size: 13px;
+	padding: 37px 31px;
+}
+
+.root {
+	
+	float: left;
+	margin-right: 45px;
+	margin-top: 12px;
+}
+
+.button-first {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 12px 17px;
+
+}
+
+.bf {
+	display: block;
+	margin-right: 68px;
+	float: left;
+}
+
+.button-first a, .button-second a {
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+}
+
+.butt-footer {
+	padding: 0;
+	margin: 0;
+}
+
+.button-second {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 12px 17px;
+
+}
+
+.text-white-bg {
+	background-color: white;
+	color: #22a2ec;
+	padding: 12px 17px;
+}
+
+.end {
+	margin-top: 12px;
+	float: right;
+} 

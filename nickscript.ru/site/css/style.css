@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+div, input {
+	box-sizing: border-box;
+}
+
+.content {
+	text-align: center;
+
+}
+
+.header {
+	background: #4e8598;
+	color: white;
+}
+
+.header_logo {
+	padding: 55px 0 191px 0;
+	
+}
+
+.header_title {
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+.header_button {
+	border: 1px solid white;
+	width: 217px;
+	margin: 0 auto 177px;
+	border-radius: 50px;
+
+}
+
+.header_button a {
+	color: white;
+	padding: 24px 0;
+	display: block;
+	text-decoration: none;
+}
+
+.header_arrow {
+	padding-bottom: 58px;
+}
