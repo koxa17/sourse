@@ -1,124 +1,50 @@
-/*button{
-	margin: 0 10px 10px 0;
+*{
+	margin: 0;
+	padding: 0;
 }
 
-#testBox{
-	margin-top: 10px;
-	width: 450px;
-	height: 100px;
-	background: green;
-	position: relative;
-}
-.red {
-	background: red;
-
-}*/
-
-body {
-	background-color: white;
+section {
+	background-color: #313840;
 }
 
-.imageHolder {
- 
- width: 350px;
+h2 {
+	font-family: 'montserrat', sans-serif;
+	color: #888;
+	text-align: center;
+}
 
- height: 350px;
+.content {
+	width: 100vh;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.name,.email,.tel{
+	color: #888;
+	margin-top: 80px; 
+	margin-right: 30px;
+	margin-left: 25px;
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #888;
+}
+
+.button {
+	background-color: orange;
+	border: 1px solid orange;
+	padding: 10px;
+	border-radius: 10px;
 	
- display: flex;
-
- justify-content: center;
-
- margin-top: 50px;
-
- cursor: pointer;
-
 }
 
-
-
-.colorsSelector {
-
- display: flex;
-
- margin-top: 20px;
-
+.button:hover{
+	background: none;
+	color: #888;
 }
 
-
-
-.colorWhite {
-
- width: 50px;
-
- height: 50px;
-
- border-radius: 25px;
-
- background: #999;
-
-}
-
-
-
-.colorBlack {
-
- width: 50px;
-
- height: 50px;
-
- border-radius: 25px;
-
- background: black;
-
-}
-
-
-
-.colorOrange {
-
- width: 50px;
-
- height: 50px;
-
- border-radius: 25px;
-
- background: orange;
-
-}
-
-
-
-.colorBlue {
-
- width: 50px;
-
- height: 50px;
-
- border-radius: 25px;
-
- background: blue;
-
-}
-
-
-
-.colorRed {
-
- width: 50px;
-
- height: 50px;
-
- border-radius: 25px;
-
- background: yellow;
-
-}
-
-.colorItem {
-	padding: 50px;
-	margin: 10px
-}
-
-ol {
-	list-style-type: decimal-leading-zero;
+span {
+	font-weight: bold;
 }

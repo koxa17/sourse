@@ -1,8 +1,23 @@
 $(function(){
 
-	$('.testBut').on('click', function(){
+	$('form input[type="submit"]').on('click', function(){
+		
 
-		$('ol li').append('<p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit, sed do eiusmod</p>');
+		let name, email, tel, you_name, you_email, you_tel;
+
+		name = $('#name').val();
+		email = $('#email').val();
+		tel = $('#tel').val();
+
+		you_name = $('span#you-name');
+		you_email = $('span#you-email');
+		you_tel = $('span#you-tel');
+
+		you_name.text(name);
+		you_email.text(email);
+		you_tel.text(tel);
+
+		
 
 	});
 
