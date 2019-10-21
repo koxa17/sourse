@@ -11,7 +11,7 @@ div, input {
 
 .content {
 	text-align: center;
-
+	margin: 0 auto;
 }
 
 .header {
@@ -55,3 +55,24 @@ div, input {
 .header_arrow {
 	padding-bottom: 58px;
 }
+
+.about_title {
+	text-transform: uppercase;
+	margin-top: 80px;
+	margin-bottom: 90px;
+	font-size: 28px;
+}
+
+.mission {
+	text-align: left;
+	width: 355px;
+	float: left;	
+}
+
+/*.mission_title {
+	content: '';
+	display: block;
+	background: #4e8598;
+	width: 72px;
+	height: 3px;
+}*/
