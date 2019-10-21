@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Tahoma, Arial, sans-serif;
+	font-size: 15px;
 }
 
 div, input {
@@ -31,13 +32,20 @@ div, input {
 
 .header_button {
 	border: 1px solid white;
-	width: 217px;
+	width: 227px;
 	margin: 0 auto 177px;
 	border-radius: 50px;
-
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
 }
 
-.header_button a {
+.header_button:hover {
+	border: 1px solid #2f383b;
+	background: #2f383b;
+}
+
+.button a {
 	color: white;
 	padding: 24px 0;
 	display: block;

@@ -61,33 +61,38 @@ body {
 	padding: 54px 45px 0 45px;
 }
 
+.card {
+	width: 357px;
+	height: 246px;
+	padding: 31px 29px;
+	margin-right: 3%;
+	float: left;
+	overflow: hidden;
+}
+
 .text-card {
 	margin-top: 40px;
 }
 
 .item-card-first {
 	border: 1px solid #d6d6d6;
-	margin-right: 59px;			
+				
 }
 
 .item-card-second {
 	border: 5px solid #d6d6d6;
-	margin-right: 59px;
+	width: 349px;
+	height: 238px;
+	
 }
 
 .item-card-third {
 	box-shadow: 0 0 50px #d1d1d1;
 	border-radius: 10px;
+	margin-right: 0;
 	
 }
 
-.card {
-	width: 357px;
-	height: 246px;
-	padding: 31px 29px;
-	float: left;
-	overflow: hidden;
-}
 
 #second {
 	padding: 54px 45px;
