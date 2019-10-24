@@ -3,8 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Сайт портфолио</title>
+
+	<!-- Инструкция для IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	
+	<!-- Отображать страницу в маштабе 100% -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Нормализация стилей -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	
 	<!-- собственные стили -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	
@@ -29,7 +38,7 @@
 		HTML5 CSS3 JavaScript jQuery</div>
 		
 		<div class="header_arrow">
-			<iA class="fas fa-chevron-down"></iA>
+			<a href="#portfolio_title"><iA class="fas fa-chevron-down"></iA></a>
 		</div>
 
 
@@ -47,7 +56,7 @@
 		
 		<div class="container">
 
-			<div class="title">
+			<div class="title" id="portfolio_title">
 				Портфолио
 			</div>
 			
@@ -58,7 +67,7 @@
 						
 						<div class="portfolio-item_img"><img src="images/portfolio-img/project_organica.jpg" alt="Макет органика"></div>
 
-						<div class="portfolio-item_title"><a href="#">Макет органика</a></div>
+						<div class="portfolio-item_title"><a href="work-organica.html">Макет органика</a></div>
 
 						<div class="portfolio-item_text"><p>Верстка одностраничного сайта по PSD макету.</p></div>
 
@@ -72,7 +81,7 @@
 					
 					<div class="portfolio-item_img"><img src="images/portfolio-img/project_apollo.jpg" alt="Учебный макет Аполло"></div>
 
-					<div class="portfolio-item_title"><a href="#">Учебный макет Аполло</a></div>
+					<div class="portfolio-item_title"><a href="work-apollo.html">Учебный макет Аполло</a></div>
 
 					<div class="portfolio-item_text"><p>Верстка лендинга хостинг компании. Мобильная адаптивность</p></div>
 
@@ -86,7 +95,7 @@
 					
 					<div class="portfolio-item_img"><img src="images/portfolio-img/project_portfolio.jpg" alt="Личный сайт портфолио" ></div>
 
-					<div class="portfolio-item_title"><a href="#">Личный сайт портфолио</a></div>
+					<div class="portfolio-item_title"><a href="work-portfolio.html">Личный сайт портфолио</a></div>
 
 					<div class="portfolio-item_text"><p>Верстка личного сайта портфолио на которм вы сейчас находитесь.</p></div>
 					
@@ -118,7 +127,7 @@
 				<p class="footer_social">Мои профили в социальных сетях:</p>
 				<p class="footer_social-icons">
 					
-					<a href="#" target="_blank">
+					<a href="https://vk.com/id71204174" target="_blank">
 						<iA class="fab fa-vk"></iA>
 					</a>
 
@@ -131,14 +140,14 @@
 					</a>
 
 					<a href="#" target="_blank">
-						<iA class="fab fa-youtube"></iA>
+						<iA class="fab fa-instagram"></iA>
 					</a>
-					
+										
 				</p>
 				
 			</div>
 			<div class="col-4">
-				<div><a href="#" class="button" target="_blank">Связаться ВКОНТАКТЕ</a></div>				
+				<div><a href="https://vk.com/im?sel=71204174" class="button" target="_blank">Связаться ВКОНТАКТЕ</a></div>				
 				<p>Напишите мне, что бы заказать или узнать<br> стоимость верстки вашего проекта</p>
 
 			</div>
