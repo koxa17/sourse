@@ -1,15 +1,120 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto Slab', serif;
 }
 
 div, button {
 	box-sizing: border-box;
 }
 
+.clearfix:after {
+	content: "";
+	display: table;
+	width: 100%
+}
+
 .content {
 	margin: 0 auto;
 	text-align: center;
-	width: 1200px;	
+	width: 1200px;
 }
 
+/*------------------------------------
+
+			SECTION-FIRST
+
+--------------------------------------*/
+.section-first{
+	font-size: 14px;
+}
+
+.logo {
+	float: left;
+	margin-right: 52px;
+	padding: 10px 0;
+}
+
+.section-first__menu {
+	padding-top: 30px;
+	margin: 0;
+}
+
+
+.section-first__item {
+	float: left;
+	display: block;
+	padding: 12px;
+	font-weight: bold;
+}
+
+.section-first__item:last {
+	padding-right: 0;
+}
+
+.section-first__call-phone_color-purple {
+	color: #2f1059;
+}
+
+.call-phone {
+	float: right;
+}
+
+.number {
+	font-weight: bold;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.button {
+	padding: 6px 15px;
+	border: 2px solid purple;
+	border-radius: 5px;
+	float: right;
+}
+
+.section-first__call-phone_color-purple a {
+	text-decoration: none;
+	color: #2f1059;
+}
+
+
+/*------------------------------------
+
+	         H E A D E R
+
+--------------------------------------*/
+
+.header {
+	background: url('../img/bg/header-bg.png') no-repeat;
+	padding-top: 36px;
+}
+
+.header__cloud-bg {
+	background: url(../img/decoration/cloud.png);
+	padding-top: 35px;
+	width: 1111px; 
+	height: 191px;
+	color: #2f1059;
+}
+
+.header__title {
+	font-weight: bold;
+	font-size: 43px;
+	margin: 10px 0 0 0;
+	text-transform: uppercase;
+}
+
+.header__paragraph {
+	margin: 0;
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+.header__paragraph_weight-bold {
+	font-weight: bold;
+}
+
+
+
+/*font-family: 'Roboto Slab', serif;*/

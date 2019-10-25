@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
+	<!--Шрифты -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700&display=swap" rel="stylesheet"> 
+
+	<!-- Подключение CSS -->
 	<link rel="stylesheet" href="style/main.css">
 	<meta charset="UTF-8">
 	<title>Жилой дом(Домашняя работа 5)</title>
 </head>
 <body>
 	
-	<section class="section-first">
+	<!------------------------------------
+
+	        	 SECTION-FIRST
+
+	---------------------------------------->
+	<section class="section-first clearfix">
 		<div class="content">
-			<div class="section-first__logo">
-				<img src="#" alt="Логотип">
+			<div class="section-first__logo logo">
+				<img src="img/logo.png" alt="Логотип">
 			</div>
 			<nav>
 				<ul class="section-first__menu">
@@ -32,24 +42,38 @@
 				</ul>
 			</nav>
 			
-			<div class="section-first__phone">
-				+7(495)544-23-12
-			</div>
-			<div class="section-first__button">
-				<a href="#">Заказать звонок</a>
+			<div class="section-first__call-phone_color-purple call-phone">
+				<div class="section-first__number number">
+					+7(495)544-23-12
+				</div>
+				<a href="#" class="section-first__button button">			Заказать звонок
+				</a>
 			</div>
 		</div>		
 	</section>
 
+
+<!------------------------------------
+
+	        	 H E A D E R
+
+	---------------------------------------->
+
 	<header class="header">
 		<div class="content">
-			<p class="header__paragraph">
-				<span class="header__paragraph_color-purple">Дом готов</span>, идет внутренняя отделка. Срок сдачи: <span class="header__paragraph_color-purple">Февраль 2016</span>
-			</p>
-			<h1 class="header__title">
-				Ваша квартира в новострое ждет вас
-			</h1>
-			<p class="header__paragraph">Уютные квартиры в центре города в <span class="header__paragraph_color-purple"></span>5 минутах от р.Волга</p>
+			
+			<div class="header__cloud-bg">
+				<p class="header__paragraph">
+					<span class="header__paragraph_weight-bold">Дом готов</span>, идет внутренняя отделка. Срок сдачи: <span class="header__paragraph_weight-bold">Февраль 2016</span>
+				</p>
+
+				<h1 class="header__title">
+					Ваша квартира в новострое ждет вас
+				</h1>
+
+				<p class="header__paragraph">Уютные квартиры в центре города в <span class="header__paragraph_weight-bold">5 минутах от р.Волга</span></p>
+			</div>
+			
 
 			<div class="block-form">
 				<h3 class="block-form__title">
@@ -305,21 +329,134 @@
 		</div>
 	</section>
 
-	<section class="">
+	<section class="section-picking">
 		<div class="content">
+			<h2 class="section-picking__title">
+				Комплектация
+			</h2>
+			
+			<p class="section-picking__subtext">
+				В каждой квартире
+			</p>
+
+			<div class="section-picking__list_position-left">
+				<ul class="section-picking__list-items">
+					<li class="section-picking__item">
+						Газовый котел: Название
+					</li>
+					<li class="section-picking__item">
+						Ванная: Металлическая
+					</li>
+					<li class="section-picking__item">
+						Умывальник: Керамический
+					</li>
+					<li class="section-picking__item">
+						Унитаз: Керамический
+					</li>
+					<li class="section-picking__item">
+						Газовая плита: Четырех комфорочная
+					</li>
+				</ul>
+			</div>
+
+			<div class="section-picking__list_position-center">
+				<ul class="section-picking__list-items">
+					<li class="section-picking__item">
+						Балкон: Застекленный
+					</li>
+					<li class="section-picking__item">
+						Отделка пола: Линолеум
+					</li>
+					<li class="section-picking__item">
+						Отделка пола в с/у: Плитка 
+					</li>
+					<li class="section-picking__item">
+						Отделка стен: Водоэмульсинновая краска
+					</li>
+				</ul>
+			</div>
+
+			<div class="section-picking__list_position-right">
+				<ul class="section-picking__list-items">
+					<li class="section-picking__item">
+						Дверь входная: Стальная
+					</li>
+					<li class="section-picking__item">
+						Двери межкомнатные: Деревянные
+					</li>
+					<li class="section-picking__item">
+						Окна: ПВХ
+					</li>
+					<li class="section-picking__item">
+						Отделка стен в с/у: Частично плитка керамическая
+					</li>
+					<li class="section-picking__item">
+						Отделка потолков: Водоэмульсионная краска
+					</li>
+				</ul>
+			</div>
 			
 		</div>
 	</section>
 
-	<section class="">
+	<section class="section-documents">
 		<div class="content">
-			
+			<h2 class="section-documents__title">
+				У нас есть все необходимые документы
+			</h2>
+			<p class="section-documents__paragraph">
+				Обеспечивающие надежность и Вашу защиту
+			</p>
+
+			<div class="section-documents__img">
+				<img src="" alt="Информация о застройщиках">
+			</div>
+			<div class="section-documents__img">
+				<img src="" alt="Лицензия">
+			</div>
+			<div class="section-documents__img">
+				<img src="" alt="Договор">
+			</div>
+			<div class="section-documents__img">
+				<img src="" alt="Свидетельство">
+			</div>
 		</div>
 	</section>
 
-	<footer class="footer">
+	<footer class="section-footer">
 		<div class="content">
+			<div class="section-footer__logo logo">
+				<img src="img/logo.png" alt="Логотип">
+			</div>
+
+			<div class="section-footer__root">
+				2015 Все права защищены
+				<a href="" class="section-footer__confidentiality">
+					Политика конфиденциальности
+				</a>
+			</div>
+
+			<div class="section-footer__address">
+				<span class="section-footer__address_weight-bold">Адрес офиса:</span>
+				<p class="section-footer__paragraph">
+					Ярославская область р-н Заволожский,ул.3-я Тверицкая д.32
+				</p>
+				<p class="section-footer__paragraph_email">
+					<span class="section-footer__address_weight-bold">
+						E-mail:
+					</span>
+					info@sitename.tu
+				</p>
+			</div>
+
 			
+			<div class="section-footer__call-phone call-phone">
+				<div class="section-footer__number number">
+					+7(495)544-23-12
+				</div>
+				<a href="#" class="section-footer__button button">			Заказать звонок
+				</a>
+			</div>
 		</div>
 	</footer>
 	
