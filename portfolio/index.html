@@ -4,8 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Сайт портфолио</title>
 
+
+	<!-- Подключение jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
 	<!-- Инструкция для IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+	<!-- OG Tags -->
+	<meta property="og:title" content="Мой сайт портфолио">
+	<meta property="description" content="Верстка сайтов на HTML и CSS HTML5 CSS3 JavaScript jQuery">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://s226531.smrtp.ru/index.html">
+	<meta property="og:image" content="https://s226531.smrtp.ru/index.html/images/bg/bg-header3.jpg">
 
 	
 	<!-- Отображать страницу в маштабе 100% -->
@@ -22,6 +34,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon-16x16.png">
+	
 </head>
 <body>
 	<!--...........................
@@ -38,7 +51,7 @@
 		HTML5 CSS3 JavaScript jQuery</div>
 		
 		<div class="header_arrow">
-			<a href="#portfolio_title"><iA class="fas fa-chevron-down"></iA></a>
+			<iA class="fas fa-chevron-down"></iA>
 		</div>
 
 
@@ -65,7 +78,9 @@
 				<div class="col-4">
 				<div class="portfolio-item">
 						
-						<div class="portfolio-item_img"><img src="images/portfolio-img/project_organica.jpg" alt="Макет органика"></div>
+						<div class="portfolio-item_img">
+							<a href="work-organica.html"><img src="images/portfolio-img/project_organica.jpg" alt="Макет органика"></a>
+						</div>
 
 						<div class="portfolio-item_title"><a href="work-organica.html">Макет органика</a></div>
 
@@ -79,7 +94,9 @@
 				<div class="col-4">
 				<div class="portfolio-item">
 					
-					<div class="portfolio-item_img"><img src="images/portfolio-img/project_apollo.jpg" alt="Учебный макет Аполло"></div>
+					<div class="portfolio-item_img">
+						<a href="work-apollo.html"><img src="images/portfolio-img/project_apollo.jpg" alt="Учебный макет Аполло"></a>
+					</div>
 
 					<div class="portfolio-item_title"><a href="work-apollo.html">Учебный макет Аполло</a></div>
 
@@ -93,7 +110,9 @@
 				<div class="col-4">
 				<div class="portfolio-item">
 					
-					<div class="portfolio-item_img"><img src="images/portfolio-img/project_portfolio.jpg" alt="Личный сайт портфолио" ></div>
+					<div class="portfolio-item_img">
+						<a href="work-portfolio.html"><img src="images/portfolio-img/project_portfolio.jpg" alt="Личный сайт портфолио"></a>
+					</div>
 
 					<div class="portfolio-item_title"><a href="work-portfolio.html">Личный сайт портфолио</a></div>
 
@@ -116,7 +135,7 @@
 	.............................-->
 
 
-<div class="footer">
+<div class="footer" id="footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-4">
@@ -131,15 +150,15 @@
 						<iA class="fab fa-vk"></iA>
 					</a>
 
-					<a href="#" target="_blank">
+					<a href="#footer">
 						<iA class="fab fa-twitter"></iA>
 					</a>
 
-					<a href="#" target="_blank">
+					<a href="#footer">
 						<iA class="fab fa-facebook"></iA>
 					</a>
 
-					<a href="#" target="_blank">
+					<a href="#footer">
 						<iA class="fab fa-instagram"></iA>
 					</a>
 										
@@ -154,11 +173,9 @@
 		</div>	
 	</div>
 </div>
-
-
-
-
-
+	
+	<!-- Продключение JavaScript -->
+	<script src="js/main.js"></script>
 
 
 </body>

@@ -133,9 +133,8 @@ a {
 	left: 50%;
 }
 
-.header_arrow a {
-	color: white;
-	text-decoration: none;
+.fa-chevron-down {
+	cursor: pointer;
 }
 
 /*Если не работают иконки, указать для них семейство шрифтов 'i' заменил на свой тэг так как i - это италика(курсив)*/
@@ -172,8 +171,16 @@ iA {
 }
 
 .portfolio-item_img img {
-	max-width: 100%
+	clip-path: polygon(0 0, 100% 8%, 100% 100%, 0% 100%);
+	max-width: 100%;
+	transition: 0.4s ease;
+    cursor: zoom-in;
 
+}
+
+.portfolio-item_img img:hover {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	transition: 0.4s ease;
 }
 
 .portfolio-item_title {
