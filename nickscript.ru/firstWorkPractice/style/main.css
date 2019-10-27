@@ -88,6 +88,7 @@ div, button {
 .header {
 	background: url('../img/bg/header-bg.png') no-repeat;
 	padding-top: 36px;
+	position: relative;
 }
 
 .header__cloud-bg {
@@ -114,6 +115,104 @@ div, button {
 .header__paragraph_weight-bold {
 	font-weight: bold;
 }
+
+.block-form {
+	background: url(../img/bg/form-bg.png) no-repeat center;
+	color: white;
+	width: 781px;
+	height: 238px;
+	margin: 210px auto 46px;
+}
+
+.block-form__title {
+	font-size: 24px;
+	padding-top: 35px;
+	margin: 0;
+}
+
+.block-form__paragraph {
+	font-size: 17px;
+	font-weight: lighter;
+	margin: 0 0 25px 0;
+}
+
+.block-form__input {
+	width: 173px;
+	height: 51px;
+	font-size: 17px; 
+	border: 0;
+	border-radius: 5px;
+	padding-left: 29px;
+	margin-right: 8px;
+}
+
+.block-form__button {
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	background: #d22828;
+	padding: 17px 29px;
+	border-radius: 5px;
+	border: 0;
+}
+
+.block-form__paragraph-counter {
+	color: #b78cf2;
+	font-size: 15.3px;
+	margin-top: 25px;
+}
+
+.block-form__paragraph_border {
+	border: 2px solid #b78cf2;
+	font-weight: bold;
+	font-size: 22.7px;
+	padding: 2px 6px;
+	border-radius: 5px;
+}
+
+/*------------------------------------
+
+	        SECTION - REASON
+
+--------------------------------------*/
+
+
+.section-reasons {
+	padding: 0 39px 27px;
+	position: relative;	
+}
+
+.section-reasons__list {
+	font-size: 17px;
+	
+}
+
+
+.section-reasons__circle {
+	display: block;
+	float: left;
+	background: url(../img/bg/circle-bg.png) no-repeat;
+	width: 154px;
+	height: 146px;
+	margin-right: 50px;
+}
+
+.section-reasons__circle:nth-child(6) {
+	margin-right: 0;
+}
+
+
+
+.section-reasons__paragraph {
+	display: block;
+	margin: 51px auto;
+}
+
+.section-reasons__paragraph:nth-child(4) {
+	margin: 0px auto;
+}
+
+
 
 
 
