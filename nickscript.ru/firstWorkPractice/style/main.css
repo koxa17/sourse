@@ -178,7 +178,7 @@ div, button {
 
 
 .section-reasons {
-	padding: 0 39px 27px;
+	padding: 0 39px 0;
 	position: relative;	
 }
 
@@ -192,25 +192,57 @@ div, button {
 	display: block;
 	float: left;
 	background: url(../img/bg/circle-bg.png) no-repeat;
-	width: 154px;
-	height: 146px;
+	width: 150px;
 	margin-right: 50px;
+	background-size: contain;
 }
 
 .section-reasons__circle:nth-child(6) {
 	margin-right: 0;
 }
 
-
-
 .section-reasons__paragraph {
 	display: block;
 	margin: 51px auto;
 }
 
-.section-reasons__paragraph:nth-child(4) {
-	margin: 0px auto;
+.section-reasons__circle:nth-child(n + 4) .section-reasons__paragraph {
+	margin-top: 40px;
+	width: 165px;
 }
+
+.section-reasons__paragraph_weight-bold {
+	font-weight: bold;
+}
+
+.section-reasons__circle:nth-child(1) {
+	margin-top: 150px;
+}
+
+.section-reasons__circle:nth-child(2) {
+	margin-top: 60px;
+}
+
+.section-reasons__circle:nth-child(5) {
+	margin-top: 60px;
+}
+
+.section-reasons__circle:nth-child(6) {
+	margin-top: 150px;
+}
+
+/*<!------------------------------------
+
+	        	SECTION - STATUS
+
+	---------------------------------------->*/
+
+.section-status {
+	background: url('../img/bg/purple-bg.png') no-repeat;
+	color: white;
+}
+
+
 
 
 
