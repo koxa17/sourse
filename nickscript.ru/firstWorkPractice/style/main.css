@@ -241,10 +241,139 @@ div, button {
 	background: url('../img/bg/purple-bg.png') no-repeat;
 	color: white;
 	height: 197px;
+	margin-bottom: 104px;
+}
+
+.section-status__title {
+	margin: 0;
+	padding: 30px 0 21px 0;
+	font-size: 24px;
+}
+
+.section-status__paragraph {
+	background: url('../img/decoration/flag.png') left bottom no-repeat;
+	width: 245px;
+	height: 26px;
+	font-size: 19px;
+	padding-left: 30px;
+	margin: 0 auto 15px;
+}
+
+/*<!------------------------------------
+
+	        	SECTION - PLACE
+
+	---------------------------------------->*/
+.section-place {
+
+}
+
+.section-place__title {
+	font-size: 37px;
+	font-weight: bold;
+	margin: 0 0 21px 0;
+}
+
+.section-place__paragraph {
+	font-size: 20px;
+	font-weight: lighter;
+	margin: 22px 0 60px 0;
+}
+
+.section-place__img-item {
+	display: block;
+	float: left;
+	margin-bottom: 160px;
+}
+
+.section-place__img-item:nth-child(2) {
+	margin-top: 25px; /*проверить*/
+}
+
+.section-place__img-item img {
+	width: 385px;
+
+}
+.section-place__paragraph {
+	font-size: 15px;
+	margin: 0;
+}
+
+.section-place__paragraph_weight_bold {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0;
+}
+
+.section-place__paragraph_font-size {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+/*<!--------------------------------------
+
+	        	SECTION - INFRASTRUCTURE
+
+	---------------------------------------->*/
+
+.section-infrastructure {
+	background: url('../img/bg/inf-bg.png') bottom no-repeat;
+	margin: 0 auto;
+}
+
+.section-infrastructure__title {
+	font-size: 37px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 73px 0;
+}
+
+.section-infrastructure__block {
+	float: left;
+	text-align: left;
+	margin-right: 45px;
+}
+
+.section-infrastructure__block:nth-child(2) {
+	margin-left: 88px;
+}
+
+.section-infrastructure__block:nth-child(4) {
+	margin-right: 0;
 }
 
 
+.section-infrastructure__paragraph_weight-bold {
+	font-weight: bold;
+	margin-bottom: 0;
+}
 
+.section-infrastructure__paragraph_weight-bold:after {
+	content: "";
+	background: url('../img/decoration/shadow-bb.png') no-repeat;
+	width: 200px;
+	height: 43px;
+	display: block;
+	margin-top: 10px;
+}
+
+.section-infrastructure__list {
+	padding: 0;
+	margin-top: 0;
+}
+
+.section-infrastructure__item-social {
+	display: block;
+}
+
+.section-infrastructure__item-social:after {
+	content: "";
+	background: url('../img/decoration/line.png')no-repeat;
+	display: block;
+	width: 340px;
+	margin: 9px 0 12px 0;
+	height: 1px;
+}
 
 
 
