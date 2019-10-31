@@ -317,8 +317,9 @@ div, button {
 	---------------------------------------->*/
 
 .section-infrastructure {
-	background: url('../img/bg/inf-bg.png') bottom no-repeat;
+	background: url('../img/bg/inf-bg.png') no-repeat;
 	margin: 0 auto;
+	padding-bottom: 60px;
 }
 
 .section-infrastructure__title {
@@ -344,6 +345,7 @@ div, button {
 
 
 .section-infrastructure__paragraph_weight-bold {
+	font-size: 19px;
 	font-weight: bold;
 	margin-bottom: 0;
 }
@@ -363,6 +365,7 @@ div, button {
 }
 
 .section-infrastructure__item-social {
+	font-size: 16px;
 	display: block;
 }
 
@@ -375,7 +378,107 @@ div, button {
 	height: 1px;
 }
 
+/*<!--------------------------------------
 
+	        	SECTION - greenInsert
 
+	---------------------------------------->*/
+
+.section-greenInsert {
+	background: url('../img/bg/small-gr-bg.png') no-repeat;
+	height: 115px;
+}
+
+.section-greenInsert__circle {
+	float: left;
+	margin: 30px 41px 0 0;
+	text-align: left;
+	color: white;
+}
+
+.section-greenInsert__circle:first-child {
+	margin-left: 88px;
+}
+
+.section-greenInsert__circle img {
+	float: left;
+	margin-right: 5px;
+}
+
+.section-greenInsert__paragraph_weight-bold {
+	font-size: 17px;
+	font-weight: bold;
+	float: left;
+	margin: 5px 0 0 0;
+}
+
+.section-greenInsert__paragraph {
+	font-size: 17px;
+	margin: 0;
+}
+
+/*<!--------------------------------------
+
+	        	SECTION - STRUCTURE
+
+	---------------------------------------->*/
+
+.section-structure__title {
+	font-size: 37px;
+	text-transform: uppercase;
+	margin: 80px 0 60px 0; 
+}
+
+.section-structure__description {
+	float: left;
+	width: 301px;
+	margin-right: 90px;
+}
+
+.section-structure__description:nth-child(4) {
+	margin-right: 0;
+}
+
+.section-structure__description:nth-child(2) {
+	margin-left: 80px;
+}
+
+.section-structure__paragraph {
+	text-align: initial;
+	font-size: 15px;
+}
+
+/*<!--------------------------------------
+
+	        	SECTION - PICKING
+
+	---------------------------------------->*/
+
+.section-picking {
+	background: url(../img/bg/big-gr-bg.png) no-repeat;
+	color: white;
+	font-size: 19px;
+	padding-top: 70px;
+}
+
+.section-picking__title {
+	font-size: 37px;
+	margin: 0 0 55px 0;
+}
+
+.section-picking__subtext {
+	font-weight: bold;
+	text-align: left;
+}
+
+.section-picking__list-items {
+	padding: 0;
+}
+
+.section-picking__list{
+	float: left;
+	text-align: left;
+	font-size: 16px;
+}
 
 /*font-family: 'Roboto Slab', serif;*/
