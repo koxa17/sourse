@@ -459,26 +459,50 @@ div, button {
 	color: white;
 	font-size: 19px;
 	padding-top: 70px;
+	margin-top: 70px;
 }
 
 .section-picking__title {
 	font-size: 37px;
 	margin: 0 0 55px 0;
+	text-transform: uppercase;
 }
 
 .section-picking__subtext {
 	font-weight: bold;
 	text-align: left;
-}
-
-.section-picking__list-items {
-	padding: 0;
+	margin-left: 75px;
 }
 
 .section-picking__list{
 	float: left;
 	text-align: left;
 	font-size: 16px;
+	margin-right: 25px;
 }
+
+.section-picking__list:nth-child(3) {
+	margin-left: 88px;
+}
+
+.section-picking__list:last-child {
+	margin-right: 0;
+}
+
+.section-picking__list-items {
+	padding: 0;
+}
+
+.section-picking__item::after {
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: url('../img/decoration/line-big-bg.png') no-repeat;
+	display: block;
+	margin: 7px 0 10px 0;
+}
+
+
+
 
 /*font-family: 'Roboto Slab', serif;*/
