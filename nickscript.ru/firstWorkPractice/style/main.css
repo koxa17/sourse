@@ -27,6 +27,7 @@ div, button {
 --------------------------------------*/
 .section-first{
 	font-size: 14px;
+	padding-bottom: 19px;
 }
 
 .logo {
@@ -47,6 +48,12 @@ div, button {
 	padding: 12px;
 	font-weight: bold;
 }
+.section-first__item:hover {
+	background: #f7f2fe;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
 
 .section-first__item:last {
 	padding-right: 0;
@@ -456,10 +463,12 @@ div, button {
 
 .section-picking {
 	background: url(../img/bg/big-gr-bg.png) no-repeat;
+	background-size: cover;
 	color: white;
 	font-size: 19px;
 	padding-top: 70px;
 	margin-top: 70px;
+
 }
 
 .section-picking__title {
@@ -491,6 +500,7 @@ div, button {
 
 .section-picking__list-items {
 	padding: 0;
+	margin-bottom: 80px;
 }
 
 .section-picking__item::after {
@@ -502,6 +512,101 @@ div, button {
 	margin: 7px 0 10px 0;
 }
 
+/*<!--------------------------------------
+
+	        	SECTION - DOCUMENTS
+
+	---------------------------------------->*/
+
+.section-documents {
+	background: url('../img/bg/documents-bg.png') no-repeat; 
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 83px 0 74px 0;
+
+}
+
+.section-documents__title {
+	margin: 0;
+	font-size: 37px;
+	text-transform: uppercase;
+}
+
+.section-documents__paragraph {
+	font-size: 21px;
+	margin: 23px 0 58px 0;
+}
+
+.section-documents__img {
+	float: left;
+	margin-right: 74px;
+}
+
+.section-documents__img:last-child {
+	margin-right: 0;
+}
+
+.section-documents__img:nth-child(3) {
+	margin-left: 13px;
+}
+
+/*<!--------------------------------------
+
+	        	SECTION - FOOTER
+
+	---------------------------------------->*/
+
+.section-footer {
+	background: #080808;
+	color: white;
+	padding: 22px 0 21px 0;
+	font-size: 13px;
+}
+
+.section-footer__block {
+	float: left;
+	text-align: left;
+}
+
+.section-footer__root {
+	margin-right: 79px;
+	margin-top: 26px;
+}
+
+.section-footer__root a {
+	color: white;
+}
+
+.section-footer__address {
+	background: url('../img/decoration/marker.png') no-repeat;
+	padding-left: 20px;
+	font-size: 15px;
+	margin-top: 12px;
+}
+
+.section-footer__address_weight-bold {
+	font-weight: bold;
+}
+
+.section-footer__paragraph {
+	margin: 0;
+}
+
+
+.section-footer__paragraph_email {
+	margin: 0;
+}
+
+.section-footer__call-phone {
+	margin-top: 12px;
+}
+
+.section-footer__button {
+	border-color: white;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
 
 
 
