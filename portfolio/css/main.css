@@ -52,11 +52,7 @@ a {
 	.............................-->*/
 .header {
 	background: #343c4e;
-	/*background-image: url("../images/bg/bg-header.jpg");*/
-
-	background-image: url("../images/bg/bg-header3.jpg");
-
-	/*background-image: url("");*/
+	background-image: url("../images/bg/bg-header.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -137,11 +133,14 @@ a {
 	cursor: pointer;
 }
 
-/*Если не работают иконки, указать для них семейство шрифтов 'i' заменил на свой тэг так как i - это италика(курсив)*/
-iA {
+.header_arrow a{
+	color: white;
+	text-decoration: none;
+}
+
+span {
 	font-family: fontawesome !important;
 	font-size: 32px;
-
 }
 
 /*<!--...........................
