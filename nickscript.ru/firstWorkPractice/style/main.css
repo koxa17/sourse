@@ -27,11 +27,12 @@ div, button {
 --------------------------------------*/
 .section-first{
 	font-size: 14px;
-	padding-bottom: 19px;
+	padding-bottom: px;
 }
 
 .logo {
 	float: left;
+	margin-top: 5px;
 	margin-right: 52px;
 	padding: 10px 0;
 }
@@ -61,6 +62,7 @@ div, button {
 
 .section-first__call-phone_color-purple {
 	color: #2f1059;
+	margin-top: -13px;
 }
 
 .call-phone {
