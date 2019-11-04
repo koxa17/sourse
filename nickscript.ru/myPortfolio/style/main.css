@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div, input, button {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	width: 100%
+}
+
+.content {
+	width: 940px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*work img w300 h300*/
+
+/*	<!--------------------------------------- 
+
+					H E A D E R
+
+	 ------------------------------------------>*/
+
+.header {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+	background: #373b24 url('../img/bg.png') no-repeat;
+	color: #fff;
+	padding: 57px 0 82px 0;
+}
+
+.header__logo {
+	float: left;
+	font-size: 17px;
+	margin-right: 180px;
+}
+
+.header__logo_weight-bold {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+}
+
+.header__menu {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.menu__item {
+	font-size: 15px;
+	float: left;
+	display: block;
+	margin-right: 48px;
+}
+
+.header__email {
+	float: right;
+}
+
+
+/*<!--------------------------------------- 
+
+				SECTION-ABOUT-ME
+
+	 ------------------------------------------>*/
+
+
+/*<!--------------------------------------- 
+
+				SECTION-SKILL
+
+	 ------------------------------------------>*/
+
+
+/*
+
+				Ш Р И Ф Т Ы
+
+	font-family: 'MuseoSansCyrl100italic';
+
+	font-family: 'MuseoSansCyrl100';
+
+	font-family: 'MuseoSansCyrl300';
+
+	font-family: 'MuseoSansCyrl300Italic';
+
+	font-family: 'MuseoSansCyrl900';
+
+	font-family: 'MuseoSansCyrl900Italic';
+
+	font-family: 'Natasha';
+*/
