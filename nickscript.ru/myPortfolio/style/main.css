@@ -32,7 +32,7 @@ div, input, button {
 	font-family: 'MuseoSansCyrl100', sans-serif;
 	background: #373b24 url('../img/bg.png') no-repeat;
 	color: #fff;
-	padding: 57px 0 82px 0;
+	padding: 57px 0 81px 0;
 }
 
 .header__logo {
@@ -60,6 +60,41 @@ div, input, button {
 
 .header__email {
 	float: right;
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	font-size: 13px;
+}
+
+.header__email::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #6d706a;
+	margin-top: 6px;
+}
+
+.header__title {
+	margin: 0 0 0 0;
+	padding: 298px 0 34px 0;
+	font-family: 'Natasha', sans-serif;
+	font-size: 49px;
+}
+
+
+.header__subtitle {
+	margin: 0;
+	font-size: 29px;
+	font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+
+.header__arrow-down {
+	margin-top: 239px;
+
+}
+
+.header__arrow-down img {
+	cursor: pointer;
 }
 
 
@@ -68,7 +103,108 @@ div, input, button {
 				SECTION-ABOUT-ME
 
 	 ------------------------------------------>*/
+.section-about-me {
+	padding: 86px 0 99px 0; 
+}
 
+.title {
+	font-family: 'Natasha', sans-serif;
+	font-size: 37px;
+	letter-spacing: 6px;
+	text-align: left;
+	margin: 0px;
+}
+
+.section-about-me__background {
+	float: left;
+	width: 460px;
+	margin-right: 20px;
+}
+
+.subtitle {
+	margin: 78px 0 48px 0;
+	font-family: 'Natasha', sans-serif;
+	color: #888886;
+	font-size: 22px;
+	text-align: left;
+}
+
+.background__paragraph {
+	text-align: left;
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	margin: 0;
+}
+
+.background__paragraph:nth-child(2), .background__paragraph:nth-child(3) {
+	margin-bottom: 33px;
+}
+
+.merit__project {
+	float: left;
+	margin-right: 56px;
+	margin-bottom: 68px;
+	font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+.merit__project:nth-child(2) {
+	margin-left: 19px;
+}
+
+.merit__project:nth-child(4) {
+	margin-right: 0;
+}
+
+.merit__rhombus {
+	background: url('../img/rhombus.png') no-repeat;
+	width: 103px;
+	height: 103px;
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+.merit__paragraph {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+	font-style: 12px;
+	margin: 26px 0 0 0;
+}
+
+.communication__link-list {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.communication__link-items {
+	display: table;
+	text-align: left;
+	color: #204d15;
+	font-size: 14px;
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	padding-bottom: 6px;
+/*	text-decoration: underline solid #becbbb;*/
+}
+
+.communication__link-items::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #becbbb;
+	margin-top: 6px;
+}
+
+.communication__profile {
+	background: url('../img/profile.png') no-repeat;
+	height: 64px;
+	padding-left: 85px;
+	padding-top: 5px;
+	display: inline-block; 
+	color: #757671;
+	font-style: 14px;
+	font-family: 'MuseoSansCyrl300Italic', sans-serif;
+}
 
 /*<!--------------------------------------- 
 
