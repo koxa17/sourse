@@ -7,6 +7,11 @@ div, input, button {
 	box-sizing: border-box;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
 .clearfix:after {
 	content: "";
 	display: table;
@@ -212,6 +217,105 @@ div, input, button {
 
 	 ------------------------------------------>*/
 
+.section-skill__circle {
+	float: left;
+	width: 190px;
+	margin: 63px 45px 81px 0;
+}
+
+
+.circle-index {
+	background: url('../img/circle.png') no-repeat;
+	width: 61px;
+	height: 61px;
+	float: left;
+	padding-top: 21px;
+	color: #2f5925;
+	font-style: 13px;
+	font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+.section-skill__name {
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 21px;
+	margin-left: 90px;
+	text-align: left;
+	color: #4a4b46;
+}
+
+
+/* <!--------------------------------------- 
+
+					SECTION-WORK
+
+	 ------------------------------------------>*/
+
+
+.section-work__img {
+	float: left;
+	margin-right: 20px;
+	margin-top: 60px;
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+.section-work__img img {
+	width: 100%;
+	position: relative;
+}
+
+.section-work__img:last-child {
+	margin-right: 0;
+}
+
+.overlay {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	font-size: 15px;
+	padding-top: 131px;
+	opacity: 0;
+}
+
+.overlay__view {
+	text-transform: none;
+	font-size: 13px;
+	font-family: 'MuseoSansCyrl300',sans-serif;
+	display: table;
+	border-bottom: 2px solid #828486;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	padding-top: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.overlay:hover {
+	opacity: 1;
+}
+
+ /*<!--------------------------------------- 
+
+					FOOTER
+
+	 ------------------------------------------>*/
+.footer__paragraph {
+	text-align: left;
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	font-size: 11px;
+	color: #8e8f8c;
+	margin-top: 125px;
+	margin-bottom: 111px;
+}
 
 /*
 

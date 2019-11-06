@@ -25,9 +25,9 @@
 
 			<nav>
 				<ul class="header__menu">
-					<li class="menu__item">ОБО МНЕ</li>
-					<li class="menu__item">НАВЫКИ</li>
-					<li class="menu__item">РАБОТЫ</li>
+					<li class="menu__item"><a href="#about-me">ОБО МНЕ</a></li>
+					<li class="menu__item"><a href="#skill">НАВЫКИ</a></li>
+					<li class="menu__item"><a href="#work">РАБОТЫ</a></li>
 				</ul>
 			</nav>
 
@@ -59,7 +59,7 @@
 	 <section class="section-about-me clearfix">
 
 		<div class="content">
-			<h2 class="section-about-me__title title">
+			<h2 class="section-about-me__title title" id="about-me">
 	 			Обо мне
 	 		</h2>
 
@@ -159,35 +159,35 @@
 
 	 ------------------------------------------>
 
-	 <section class="section-skill">
+	 <section class="section-skill clearfix">
 	 	
 		<div class="content">
-			<h2 class="section-skill__title title">
+			<h2 class="section-skill__title title" id="skill">
 				Навыки
 			</h2>
 			<div class="section-skill__circle">
-				98%
+				<div class="circle-index">98%</div>
 				<p class="section-skill__name">
 					Photoshop
 				</p>
 			</div>
 
 			<div class="section-skill__circle">
-				99%
+				<div class="circle-index">99%</div>
 				<p class="section-skill__name">
 					html5
 				</p>
 			</div>
 
 			<div class="section-skill__circle">
-				100%
+				<div class="circle-index">100%</div>
 				<p class="section-skill__name">
 					Css3
 				</p>
 			</div>
 
 			<div class="section-skill__circle">
-				0%
+				<div class="circle-index">0%</div>
 				<p class="section-skill__name">
 					Лень
 				</p>
@@ -203,20 +203,35 @@
 
 	 ------------------------------------------>
 
-	 <section class="section-work">
+	 <section class="section-work clearfix" >
 	 	
 	 	<div class="content">
-	 		<h2 class="section-work__title title">
+	 		<h2 class="section-work__title title" id="work">
 	 			Работы
 	 		</h2>
 	 		<div class="section-work__img">
 	 			<img src="img/work.png" alt="Работа №1">
+	 			<div class="overlay">
+	 				Название работы
+	 				<br>
+	 				<a href="#" class="overlay__view">Смотреть</a>
+	 			</div>
 	 		</div>
 	 		<div class="section-work__img" alt="Работа №2">
 	 			<img src="img/work2.png">
+	 			<div class="overlay">
+	 				Название работы
+	 				<br>
+	 				<a href="#" class="overlay__view">Смотреть</a>
+	 			</div>
 	 		</div>
 	 		<div class="section-work__img" alt="Работа №3">
 	 			<img src="img/work3.png">
+	 			<div class="overlay">
+	 				Название работы
+	 				<br>
+	 				<a href="#" class="overlay__view">Смотреть</a>
+	 			</div>
 	 		</div>
 	 	</div>
 
