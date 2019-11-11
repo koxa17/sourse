@@ -35,7 +35,7 @@ a {
 
 .header {
 	font-family: 'MuseoSansCyrl100', sans-serif;
-	background: #373b24 url('../img/bg.png') no-repeat;
+	background: #373b24 url('../img/bg.png') no-repeat center / cover;
 	color: #fff;
 	padding: 57px 0 81px 0;
 }
@@ -148,7 +148,7 @@ a {
 
 .merit__project {
 	float: left;
-	margin-right: 56px;
+	margin-right: 54px;
 	margin-bottom: 68px;
 	font-family: 'MuseoSansCyrl100', sans-serif;
 }
@@ -229,9 +229,9 @@ a {
 	width: 61px;
 	height: 61px;
 	float: left;
-	padding-top: 21px;
+	padding-top: 23px;
 	color: #2f5925;
-	font-style: 13px;
+	font-size: 13px;
 	font-family: 'MuseoSansCyrl100', sans-serif;
 }
 
