@@ -1,0 +1,84 @@
+body {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+.weight {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	text-transform: uppercase;
+}
+
+.header {
+	color: white;
+	background: url('../img/bg.png') no-repeat center;
+	padding-bottom: 83px;
+	padding-top: 57px;
+	text-align: center;
+}
+
+.logo {
+	font-size: 17px;
+	margin-right: 175px;
+}
+
+
+
+.menu__item {
+	display: block;
+	float: left;
+	margin-right: 50px;
+	font-size: 15px;
+}
+
+.mail {
+	float: right;
+	font-size: 13px;
+	border-bottom: 1px solid #6b6e68;
+}
+
+.header__title {
+	font-family: 'Natasha', sans-serif;
+	font-size: 49px;
+	margin: 297px 0 0 0;
+	letter-spacing: 3px;
+}
+
+.subtitle {
+	margin: 34px 0 264px 0;
+	font-size: 29px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+				Ш Р И Ф Т Ы
+
+	font-family: 'MuseoSansCyrl100italic';
+
+	font-family: 'MuseoSansCyrl100';
+
+	font-family: 'MuseoSansCyrl300';
+
+	font-family: 'MuseoSansCyrl300Italic';
+
+	font-family: 'MuseoSansCyrl900';
+
+	font-family: 'MuseoSansCyrl900Italic';
+
+	font-family: 'Natasha';
+*/
