@@ -1,0 +1,135 @@
+html {
+	font-size: 17px;
+}
+
+body {
+	
+}
+
+ul, li, div {
+	padding: 0;
+	margin: 0;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	width: 100%;
+}
+
+/*-------------------------------
+
+			header
+
+--------------------------------*/
+
+
+
+.header {
+	background: #14435d url('../image/header-bg.png') no-repeat center top;
+	color: white;
+	font-family: 'MuseoSansCyrl900', sans-serif;
+}
+
+.logo {
+	width: 170px;
+	height: 77px;
+	background: url('../image/logo.png') no-repeat center;
+	float: left;
+}
+
+.menu {
+	margin-top: 24px;
+}
+
+.menu__item {
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	font-size: 0.647rem;
+	padding: 13px 10px 10px 10px;
+}
+
+.phone {
+	font-size: 0.941rem;
+	margin: 18px 0 0 0;
+	width: 190px;
+}
+
+.phone__number {
+	margin: 0;
+	text-align: right;
+}
+
+.fa-phone-alt {
+	font-size: 0.9rem;
+	color: #23aae2;
+	padding: 7px;
+	border: 1px dashed #23aae2;
+	border-radius: 50px;
+	margin-top: 9px;
+}
+
+.header__title {
+	font-size: 5.294rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 32px;
+	margin-top: 200px;
+}
+
+.subtitle {
+	font-size: 3.000rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-bottom: 175px;
+}
+
+.arrow-down {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.fa-chevron-down {
+	width: 45px;
+	height: 45px;
+	font-size: 1.6rem;
+	text-align: center;
+	border: 1px dashed #fff;
+	border-radius: 50px;
+	padding-top: 9px;
+}
+
+
+
+
+
+/*
+
+				Ш Р И Ф Т Ы
+
+	font-family: 'MuseoSansCyrl100italic', sans-serif ;
+
+	font-family: 'MuseoSansCyrl100', sans-serif;
+
+	font-family: 'MuseoSansCyrl300', sans-serif;
+
+	font-family: 'MuseoSansCyrl300Italic', sans-serif;
+
+	font-family: 'MuseoSansCyrl900', sans-serif;
+
+	font-family: 'MuseoSansCyrl900Italic', sans-serif;
+
+	font-family: 'Natasha', sans-serif;
+*/
