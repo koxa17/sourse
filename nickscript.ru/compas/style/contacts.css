@@ -1,0 +1,12 @@
+.contacts {
+	background: #f7f7f7;
+	height: 655px;
+}
+
+.contacts-block {
+	background: #fff;
+	box-shadow: 5px 0 5px -5px rgba(0,0,0,.2), 0 5px 5px -5px rgba(0,0,0,.2);
+	position: absolute;
+	top: -50px;
+}
+
