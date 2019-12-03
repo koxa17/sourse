@@ -6,10 +6,7 @@
 	
 	<!-- Для мобильных -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<meta charset="UTF-8">
-	<title>My Portfolio</title>
-	
+
 	<!-- Bootstrap 3 Подлючаем-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 	
@@ -19,8 +16,11 @@
 	<!-- Главный CSS -->
 	<link rel="stylesheet" href="style/main.css">
 
-	<!--Мобильный CSSs  -->
+	<!--Мобильный CSS -->
 	<link rel="stylesheet" href="style/mobile.css">
+
+	<!--	Подключаем CSS -->
+	<link rel="stylesheet" href="style/style.css">
 
 	<!-- Подключаем FontAwesome -->
     <script src="https://kit.fontawesome.com/5768510ccf.js" crossorigin="anonymous"></script>
@@ -39,13 +39,13 @@
 				<div class="col-md-7">
 					<nav>
 						<ul class="menu">
-							<a href="#"><li class="menu__item">
+							<a href=""><li class="menu__item">
 								Главная
 							</li></a>
-							<a href="#"><li class="menu__item">
+							<a href="about.html"><li class="menu__item">
 								О компании
 							</li></a>
-							<a href="#"><li class="menu__item">
+							<a href="move.html"><li class="menu__item">
 								Недвижимость и Переезд
 							</li></a>
 							<a href="contact.html"><li class="menu__item">
@@ -76,12 +76,12 @@
 			<p class="subtitle">Ждет вас</p>
 		
 		  <div class="arrow-down">
-			<i class="fas fa-chevron-down"></i>
+			<a href="#advantage"><i class="fas fa-chevron-down"></i></a>
 		</div>
 
 	</header>
 
-	<section class="advantage">
+	<section class="advantage" id="advantage">
 		<div class="container">
 			
 			<div class="row">
@@ -328,10 +328,10 @@
 
 			<div class="row">
 				<div class="col-md-12">
-					<form class="form"> 
+					<form class="form">
 						<input type="text" class="form__input-name form__input" placeholder="ИМЯ">
 						<input type="text" class="form__input-email form__input" placeholder="E-MAIL">
-						<input class="form__input-tel form__input" placeholder="ТЕЛЕФОН">
+						<input class="form__input-tel form__input form__input-tel_margin-bottom" placeholder="ТЕЛЕФОН">
 						<button class="form__button">
 							Заказать консультацию
 						</button>

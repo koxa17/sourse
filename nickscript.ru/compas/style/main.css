@@ -41,6 +41,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 	font-family: 'MuseoSansCyrl900', sans-serif;
 	height: 100vh;
+	min-height: 508px;
+	position: relative;
 }
 
 .header-top {
@@ -62,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	float: left;
 	text-transform: uppercase;
-	font-size: 0.647rem;
+	font-size: 0.747rem;
 	padding: 13px 10px 10px 10px;
 	margin-left: 5px;
 	letter-spacing: 0.5px;
@@ -104,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: 40%;
 	margin: -10px;
 	left: 50%;
-	margin-left: -340px;
+	margin-left: -370px;
 }
 
 .subtitle {
@@ -115,8 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: 10px;
-	margin-left: -145px;	
+	margin-top: 25px;
+	margin-left: -180px;
 }
 
 .arrow-down {
@@ -526,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 /	font-family: 'MuseoSansCyrl300', sans-serif;
 }
 
-.form__input:nth-child(3) {
+.form__input-tel_margin-bottom {
 	margin-bottom: 20px;
 }
 
@@ -574,6 +576,263 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 	border-color: white;
 }
+
+
+
+/*-------------------------------
+
+			contacts-page
+
+--------------------------------*/
+
+.header_contacts {
+	position: relative;
+	height: 412px;
+
+}
+
+.contacts__title {
+	font-size: 3rem;
+	margin-left: -200px;
+	top: 33%;
+	letter-spacing: 15px;
+
+}
+
+.contacts__arrow-down {
+	bottom: 40%;
+}
+
+.contacts {
+	background: #f7f7f7;
+	height: 720px;
+
+}
+
+.paragraph-title {
+	margin-bottom: 60px;
+}
+
+.contacts-block {
+	background: #fff;
+	box-shadow: 5px 0 5px -5px rgba(0,0,0,.2), 0 5px 5px -5px rgba(0,0,0,.2);
+	position: absolute;
+	top: -90px;
+	padding: 54px 100px;
+	width: 1030px;
+
+/*	Передалть*/
+}
+
+.call-block {
+	margin-right: 0px;
+	margin-top: 77px;
+}
+
+.call {
+	font-size: 0.941rem;
+	margin-bottom: 48px;
+	padding-left: 70px;
+	font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+.call__paragraph {
+	margin: 0 10px 0 0;
+}
+
+.call-phone {
+	background: url('../image/call-phone.png') no-repeat left top;
+}
+
+.call-email {
+	background: url('../image/call-email.png') no-repeat left top;
+}
+
+.call-skype {
+	background: url('../image/call-skype.png') no-repeat left top;
+}
+
+.call__title{
+	font-size: 1.059rem;
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+
+.form_contacts {
+	background: #11b2f5;
+	color: #FFFFFF;
+	margin: 0;
+	width: auto;
+	padding: 44px 37px;
+	border-radius: 5px;
+}
+
+.form__title {
+	text-transform: uppercase;
+	font-size: 1.471rem;
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	margin-bottom: 20px;
+
+}
+
+.form__subtitle {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+	font-size: 1.059rem;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+}
+
+.form__button_contacts {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+/*-------------------------------
+
+			move-page
+
+--------------------------------*/
+
+
+.header__title_move {
+	font-size: 2.813rem;
+	margin-left: -470px;
+}
+
+.move-desc {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+.paragraph-title_move {
+	font-size: 0.941rem;
+	margin-bottom: 45px;
+}
+
+.paragraph-title_text-weight {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+}
+
+.house {
+	margin-bottom: 40px;
+}
+
+.house__paragraph, .package__paragraph {
+	font-size: 0.882rem;
+	display: table;
+	width: 390px;
+}
+
+.house__paragraph {
+	padding-top: 30px;
+}
+
+.package__paragraph {
+	padding-top: 90px;
+	margin-right: 60px;
+}
+
+
+.house__img {
+	margin-right: 55px;
+}
+
+
+/*-------------------------------
+
+			about-page
+
+--------------------------------*/
+.about {
+	position: relative;
+}
+
+.about__paragraph {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+	font-size: 1.059rem;
+	text-align: center;
+	margin-bottom: 63px;
+}
+
+.about__paragraph_weight {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+}
+
+.about-advantage {
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+.about-advantage__paragraph {
+	display: inline-block;
+}
+
+.about-advantage__paragraph_left {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.882rem;
+}
+
+.about-advantage__paragraph_center {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+	text-transform: uppercase;
+	color: #bdbdbd;
+	vertical-align: middle;
+	padding-bottom: 40px;
+	font-size: 1.118rem;
+}
+
+.about-advantage__paragraph_right {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	font-size: 1.765rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.about-advantage__paragraph_left_color {
+	color: #23aae2;
+	font-size: 2.294rem;
+}
+
+.about-advantage__paragraph_right_color {
+	color: #23aae2;
+}
+
+.about-advantage__paragraph_right_letter-spacing {
+	letter-spacing: 4px;
+}
+
+.about-advantage__paragraph_center {
+	letter-spacing: 10px;
+	margin: 0 38px 0 45px;
+
+}
+
+.blue-line {
+	height: 76px;
+	text-align: center;
+	background: #23aae2;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	padding-top: 24px;
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	font-size: 1.353rem;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	top: 300px;
+}
+
+.partners__title {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	font-size: 1.706rem;
+	margin-top: 160px;
+}
+
 
 
 
