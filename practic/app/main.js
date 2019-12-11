@@ -12,6 +12,22 @@
 
 $(function(){
 
+	$('.header__burger').on('click', function(event) {
+		$('.header__burger, .header__menu').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
+
+
+
+
+
+
+
+
+
+
+
+
 	$('p').on('click', function(){
 		$(this).css({'font-weight':'bold'});
 	});

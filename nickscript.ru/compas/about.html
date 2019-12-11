@@ -5,7 +5,9 @@
 	<title>Compas - Переезд в Болгарию</title>
 
   <!-- Для мобильных -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Bootstrap 3 Подлючаем-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -29,8 +31,8 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2">
-						<div class="logo"></div>
+					<div class="col-md-2 col-sm-3">
+						<div class="logo"><img src="image/logo.png" alt=""></div>
 					</div>
 
 				<div class="col-md-7">
@@ -39,10 +41,10 @@
 							<a href="index.html"><li class="menu__item">
 								Главная
 							</li></a>
-							<a href="#"><li class="menu__item">
+							<a href=""><li class="menu__item">
 								О компании
 							</li></a>
-							<a href=""><li class="menu__item">
+							<a href="move.html"><li class="menu__item">
 								Недвижимость и Переезд
 							</li></a>
 							<a href="contact.html"><li class="menu__item">
@@ -54,13 +56,18 @@
 
 							<div class="col-md-3">
 							<div class="phone pull-right">
-								<i class="fas fa-phone-alt pull-left"></i>
+<!--								<i class="fas fa-phone-alt pull-left"></i>-->
 								<p class="phone__number">
 									+7 (495) 12-321-345
 								</p>
 								<p class="phone__number">
 									+7 (495) 12-321-345
 								</p>
+							</div>
+						</div>
+					<div class="col-sm-1">
+							<div class="burger">
+								<span class="burger__item"></span>
 							</div>
 						</div>
 
@@ -74,17 +81,17 @@
 
 
 		  <div class="arrow-down contacts__arrow-down">
-			<a href="#contacts"><i class="fas fa-chevron-down"></i></a>
+			<a href="#about"><i class="fas fa-chevron-down"></i></a>
 		</div>
 
 	</header>
 
-<section class="contacts" id="contacts">
+<section class="abouts" id="abouts">
 		<div class="container">
 
 			<div class="row">
 			 	<div class="col-md-10 col-md-offset-1">
-			 		<div class="contacts-block move-desc about">
+			 		<div class="contacts-block move-desc about" id="about">
                     <p class="about__paragraph">
                       <span class="about__paragraph_weight">Надежность и достоверность</span> - главные принципы нашей работы. Мы всегда готовы ответить на самые сложные и неоднозначные вопросы о переезде в Болгарию, помочь со всеми
 формальностями и принять верное решение!
@@ -114,18 +121,29 @@
 							</span>
 						</div>
 
-						<div class="partners">
+						<div class="partners clearfix">
 							<h2 class="partners__title title">
 								Управляющие партнеры
 							</h2>
 
-							<div class="partners-left-block">
-								<div class="partners-left-block__title">
-
-								</div>
+							<div class="partners-left-block partners-block">
+								<img src="image/partners-photo.png" alt="" class="partners__block__img">
+								<h4 class="partners__block__title">
+									Игорь Ковалев
+								</h4>
+								<p class="partners__block-paragraph">
+									Переезд в другую страну всегда сопряжен с рисками, особенно если Вы переезжаете всей семьей. Необходимо позаботиться - в какой детский сад будут хоть ваши дети, какую школу посещать, как получить медицинскую помощь вашим родителям и какой бизнес вы сможете открыть на новом месте жительства. Мы поможем Вам разобраться во всех деталях, а вам останется только наслаждаться новым уровнем жизни! :)
+								</p>
 							</div>
-							<div class="partners-right-block">
 
+							<div class="partners-right-block partners-block">
+								<img src="image/partners-photo2.png" alt="" class="partners__block__img">
+								<h4 class="partners__block__title">
+									Виктор Петров
+								</h4>
+								<p class="partners__block-paragraph">
+									Я на своем опыте убедился сколько сложностей возникает при переезде в другую страну. Сколько нюансов нужно узнать и учесть, что легально переехать на ВНЖ. Но скажу точно - это того стоит! Каждое утро я вижу Солнечный берег и Вам готов помочь в переезде в Болгарию. В добрый путь!
+								</p>
 							</div>
 
 						</div>

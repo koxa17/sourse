@@ -1,28 +1,24 @@
-$(function(){
+$(function () {
 
-	$('form input[type="submit"]').on('click', function(){
-		
+    //ТУТ лучше ИД  сделать  и лучше писаьт вот так
+    $(document).on('click', 'form input[type="submit"]', () => {
 
-		let name, email, tel, you_name, you_email, you_tel;
+        let name, email, tel, you_name, you_email, you_tel;
 
-		name = $('#name').val();
-		email = $('#email').val();
-		tel = $('#tel').val();
+        name = $('#name').val();
+        email = $('#email').val();
+        tel = $('#tel').val();
 
-		you_name = $('span#you-name');
-		you_email = $('span#you-email');
-		you_tel = $('span#you-tel');
+        you_name = $('span#you-name');
+        you_email = $('span#you-email');
+        you_tel = $('span#you-tel');
 
-		you_name.text(name);
-		you_email.text(email);
-		you_tel.text(tel);
-
-		
-
-	});
+        you_name.text(name);
+        you_email.text(email);
+        you_tel.text(tel);
 
 
-
+    });
 });
 
 
@@ -52,15 +48,15 @@ $(function(){
 
 
 //Замена тега, с сохранением содержимого
-	// $('h1').on('dblclick', function(){
-	// 	$('h1').replaceWith(function(){
-	// 		return $('<h3/>', {html: $(this).html()
-	// 		});
-	// 	});
-	// });
+// $('h1').on('dblclick', function(){
+// 	$('h1').replaceWith(function(){
+// 		return $('<h3/>', {html: $(this).html()
+// 		});
+// 	});
+// });
 
 
 // Удалить все <br>. (remove();полное удаление and detach();с поледующим возвратом)
-	// $('#delBr').on('click', function(){
-	// 	$('br').detach();
-	// });
+// $('#delBr').on('click', function(){
+// 	$('br').detach();
+// });
