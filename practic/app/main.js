@@ -17,11 +17,22 @@ $(function(){
 		$('body').toggleClass('lock');
 	});
 
+	function act() {
+		let btn = document.getElementById('btn');
 
+		btn.addEventListener('click', addClassMagic);
 
+		function addClassMagic(){
+			let list = document.getElementsByTagName('li');
 
+			for (let p = 0; p < list.length; p++) {
+				list[p].classList.toggle('test')
+			}
+		}
 
+	};
 
+	act();
 
 
 

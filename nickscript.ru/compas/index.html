@@ -32,6 +32,22 @@
 	
 	<header class="header">
 		<div class="header-top">
+			<nav class="burger-menu">
+						<ul class="burger-menu__list">
+							<a href=""><li class="burger-menu__link">
+								Главная
+							</li></a>
+							<a href="about.html"><li class="burger-menu__link">
+								О компании
+							</li></a>
+							<a href="move.html"><li class="burger-menu__link">
+								Недвижимость и Переезд
+							</li></a>
+							<a href="contact.html"><li class="burger-menu__link">
+								Контакты
+							</li></a>
+						</ul>
+					</nav>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2 col-sm-3">
@@ -70,11 +86,15 @@
 						</div>
 						<div class="col-sm-1">
 							<div class="burger">
-								<span class="burger__item"></span>
+								<span class="burger__line burger__line_top"></span>
+								<span class="burger__line burger__line_first"></span>
+								<span class="burger__line burger__line_second"></span>
+								<span class="burger__line burger__line_bottom"></span>
 							</div>
 						</div>
 					</div>
 				</div>
+
 		</div>
 			
 			<h1 class="header__title">
@@ -352,11 +372,11 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
-					<div class="logo"></div>
+				<div class="col-md-2 col-sm-3">
+					<div class="logo"><img src="image/logo.png" alt="Логотип"></div>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-offset-1 col-sm-4">
 					<p class="right">
 						2016 / Все права защищены
 					</p>
@@ -384,5 +404,8 @@
 		</div>
 	</footer>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

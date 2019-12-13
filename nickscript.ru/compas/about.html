@@ -29,6 +29,22 @@
 
 <header class="header header_contacts">
 		<div class="header-top">
+			<nav class="burger-menu">
+						<ul class="burger-menu__list">
+							<a href="index.html"><li class="burger-menu__link">
+								Главная
+							</li></a>
+							<a href=""><li class="burger-menu__link">
+								О компании
+							</li></a>
+							<a href="move.html"><li class="burger-menu__link">
+								Недвижимость и Переезд
+							</li></a>
+							<a href="contact.html"><li class="burger-menu__link">
+								Контакты
+							</li></a>
+						</ul>
+					</nav>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2 col-sm-3">
@@ -54,7 +70,7 @@
 					</nav>
 				</div>
 
-							<div class="col-md-3">
+							<div class="col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-4">
 							<div class="phone pull-right">
 <!--								<i class="fas fa-phone-alt pull-left"></i>-->
 								<p class="phone__number">
@@ -67,7 +83,10 @@
 						</div>
 					<div class="col-sm-1">
 							<div class="burger">
-								<span class="burger__item"></span>
+								<span class="burger__line burger__line_top"></span>
+								<span class="burger__line burger__line_first"></span>
+								<span class="burger__line burger__line_second"></span>
+								<span class="burger__line burger__line_bottom"></span>
 							</div>
 						</div>
 
@@ -76,7 +95,7 @@
 		</div>
 
 			<h1 class="header__title contacts__title header__title_move">
-				Недвижимость и переезд
+				О компании
 			</h1>
 
 
@@ -90,7 +109,7 @@
 		<div class="container">
 
 			<div class="row">
-			 	<div class="col-md-10 col-md-offset-1">
+			 	<div class="col-md-10 col-md-offset-1 col-sm-12">
 			 		<div class="contacts-block move-desc about" id="about">
                     <p class="about__paragraph">
                       <span class="about__paragraph_weight">Надежность и достоверность</span> - главные принципы нашей работы. Мы всегда готовы ответить на самые сложные и неоднозначные вопросы о переезде в Болгарию, помочь со всеми
@@ -153,6 +172,7 @@
 			 </div>
 
 		</div>
+		</div>
 	</section>
 
 
@@ -206,11 +226,11 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
-					<div class="logo"></div>
+				<div class="col-md-2 col-sm-3">
+					<div class="logo"><img src="image/logo.png" alt="Логотип"></div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-offset-1 col-sm-4">
 					<p class="right">
 						2016 / Все права защищены
 					</p>
@@ -223,8 +243,8 @@
 				</div>
 
 				<div class="col-md-3">
-					<div class="phone pull-right">
-						<i class="fas fa-phone-alt pull-left fa-phone-alt__color"></i>
+					<div class="phone pull-right phone_footer">
+<!--						<i class="fas fa-phone-alt pull-left fa-phone-alt__color"></i>-->
 						<p class="phone__number">
 								+7 (495) 12-321-345
 						</p>
@@ -238,5 +258,8 @@
 		</div>
 	</footer>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
