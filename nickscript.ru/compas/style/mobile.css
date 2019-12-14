@@ -1,8 +1,10 @@
 @media screen and (max-width: 1199px) {
 
-    .container {
-        max-width: 970px;
+    .header_bg {
+        background-size: auto;
+        background-position: top;
     }
+
 
     .phone {
         margin-top: 10px;
@@ -23,12 +25,29 @@
         left: 52%;
     }
 
+    .header__title_move {
+        margin-left: -355px;
+        top: 35%;
+        left: 50%;
+        letter-spacing: 1px;
+    }
+
+    .header__title_about {
+        top: 35%;
+        left: 50%;
+        margin-left: -250px;
+    }
+
     .subtitle {
         margin-top: 25px;
         margin-left: -180px;
         top: 50%;
         left: 52%;
         z-index: 1;
+    }
+
+    .items__paragraph {
+        font-size: 0.882rem;
     }
 
 
@@ -66,6 +85,23 @@
     .menu {
         margin-top: 15px;
     }
+
+    .partners-block {
+        height: 575px;
+    }
+
+    .paragraph-title_move {
+        font-size: 0.830rem;
+    }
+
+    .contacts-block_padding {
+        padding: 54px 0;
+    }
+
+    .call-block {
+        margin-right: 0;
+    }
+
 }
 
 @media screen and (max-width: 991px) {

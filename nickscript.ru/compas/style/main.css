@@ -5,10 +5,11 @@ html {
 
 body {
 	overflow-x: hidden;
+	font-size: 17px;
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1170px;
 }
 
 ul, li, div {
@@ -52,6 +53,11 @@ img {
 	height: 100vh;
 	min-height: 508px;
 	position: relative;
+}
+
+.header_bg {
+	background-size: auto;
+	background-position: top;
 }
 
 .header-top {
@@ -712,8 +718,8 @@ img {
 
 .header__title_move {
 	font-size: 3rem;
-	margin-left: -260px;
-	letter-spacing: 20px;
+	margin-left: -410px;
+	letter-spacing: 5px;
 }
 
 .move-desc {
@@ -764,6 +770,14 @@ img {
 			about-page
 
 --------------------------------*/
+.header__title_about {
+	font-size: 3rem;
+	margin-left: -250px;
+	top: 33%;
+	margin-top: 0px;
+	letter-spacing: 17px;
+}
+
 .about {
 	position: relative;
 }
