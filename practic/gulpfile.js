@@ -14,7 +14,7 @@ const browserSync = require('browser-sync').create();
 
 
 function styleFile(done) {
-    gulp.src('./app/scss/**/*.scss') //Выбираем файл
+    gulp.src('./app/scss/**/styles.scss') //Выбираем файл
         .pipe(soursmaps.init()) //Создаем sourcemaps
         .pipe(sass({
             errorLogToConsole: true, //Включаем отлов ошибок

@@ -1,1 +1,0 @@
-{"version":3,"sources":["mobile.scss"],"names":[],"mappings":"AAAA,qCACE,KACE,cAAe,CAChB","file":"mobile.min.css","sourcesContent":["@media screen and (max-width: 991px) {\r\n  body {\r\n    font-size: 15px;\r\n  }\r\n}"]}
