@@ -1,0 +1,279 @@
+body {
+	font-family: 'MuseoSansCyrl100', sans-serif;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	width: 100%;
+}
+
+.weight {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	text-transform: uppercase;
+}
+
+.header {
+	color: white;
+	background: url('../img/bg.png') no-repeat center / cover;
+	padding-bottom: 83px;
+	padding-top: 57px;
+	text-align: center;
+}
+
+.logo {
+	font-size: 17px;
+	margin-right: 175px;
+}
+
+
+.menu__item {
+	display: block;
+	float: left;
+	margin-right: 50px;
+	font-size: 15px;
+}
+
+.mail {
+	float: right;
+	font-size: 13px;
+	border-bottom: 1px solid #6b6e68;
+}
+
+.header__title {
+	font-family: 'Natasha', sans-serif;
+	font-size: 49px;
+	margin: 297px 0 0 0;
+	letter-spacing: 3px;
+}
+
+.subtitle {
+	margin: 34px 0 264px 0;
+	font-size: 29px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/*-------------------------------------------------- 
+
+					SECTION - ABOUT-ME
+
+ --------------------------------------------------*/
+
+.main-title {
+	font-size: 30px;
+	font-family: 'Natasha', sans-serif;
+	letter-spacing: 3px;
+	margin-top: 76px;
+	margin-bottom: 66px;
+}
+
+.title {
+	font-family: 'Natasha', sans-serif;
+	font-size: 22px;
+	letter-spacing: 3px;
+	color: #858683;
+	margin-bottom: 49px;
+}
+
+
+.text {
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	color: #3c3d37;
+	font-size: 15px;
+	width: 443px;
+	word-spacing: 2px;
+	line-height: 28px;
+}
+
+
+.text__paragraph {
+	margin-bottom: 46px;
+}
+
+.text__paragraph:last-child {
+	margin-bottom: 0;
+}
+
+.item__rhombus {
+	text-align: center;
+	float: left;
+	margin-right: 52px;
+}
+
+.item__rhombus:first-child {
+	margin-left: 18px;
+}
+
+.romb {
+	background: url('../img/rhombus.png') no-repeat;
+	width: 103px;
+	height: 103px;
+	padding-top: 36px;
+	color: #627b5d;
+	font-size: 20px;
+}
+
+.paragraph {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 26px;
+}
+
+.title_margin-top {
+	margin-top: 68px;
+}
+
+.social{
+	float: left;
+}
+
+.link {
+	border-bottom: 1px solid #becbbb;
+	color: #204d15;
+	display: table;
+	font-size: 14px;
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	margin-bottom: 16px;
+	padding-bottom: 5px;
+}
+
+.profile {
+	/*float: right;*/
+	background: url('../img/profile.png') no-repeat;
+	height: 65px;
+	padding-left: 85px;
+	font-family: 'MuseoSansCyrl300Italic', sans-serif;
+	color: #8d8d8b;
+	float: right;
+	padding-top: 20px;
+	margin-right: 130px;
+	margin-top: 15px;
+}
+
+/*-------------------------------------------------- 
+
+					SECTION - SKILL
+
+ --------------------------------------------------*/
+.circle{
+	float: left;
+	text-align: center;
+	width: 220px;
+	margin-right: 55px;
+}
+.circle__index {
+	background: url('../img/circle.png') no-repeat;
+	width: 61px;
+	height: 61px;
+	color: #204d15;
+	padding-top: 21px;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	float: left;
+}
+
+.skill__name {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	padding-top: 19px;
+	text-align: left;
+	margin-left: 89px;
+}
+
+/*-------------------------------------------------- 
+
+					SECTION - SKILL
+
+ --------------------------------------------------*/
+.gallery {
+	position: relative;
+}
+
+.gallery__img {
+	width: 360px;
+	height: 358px;
+}
+
+.gallery__img img{
+	width: 100%;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	color: white;
+	opacity: 0;
+}
+
+.overlay__title {
+	font-family: 'MuseoSansCyrl900', sans-serif;
+	text-transform: uppercase;
+	padding-top: 145px;
+}
+
+.overlay__link {
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	font-size: 13px;
+	border-bottom: 1px solid #858687;
+	display: inline;
+	padding-bottom: 2px;
+	cursor: pointer;
+}
+
+.overlay:hover{
+	opacity: 1;
+}
+
+/*-------------------------------------------------- 
+
+					SECTION - SKILL
+
+ --------------------------------------------------*/
+
+.footer__paragraph {
+	color: #777873;
+	font-size: 13px;
+	font-family: 'MuseoSansCyrl300', sans-serif;
+	margin: 125px 0 110px 0;
+	text-transform: uppercase;	
+}
+
+/*
+
+				Ш Р И Ф Т Ы
+
+	font-family: 'MuseoSansCyrl100italic';
+
+	font-family: 'MuseoSansCyrl100';
+
+	font-family: 'MuseoSansCyrl300';
+
+	font-family: 'MuseoSansCyrl300Italic';
+
+	font-family: 'MuseoSansCyrl900';
+
+	font-family: 'MuseoSansCyrl900Italic';
+
+	font-family: 'Natasha';
+*/
