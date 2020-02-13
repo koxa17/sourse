@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+	.container {
+		overflow-x: hidden;
+	}
+
+	.logo {
+		text-align: center;
+		margin: 0;
+	}
+
+	.menu {
+		display: table;
+		margin: 5px auto;
+		
+	}	
+
+	.menu__item {
+		float: none;
+		margin: 10px auto;
+	}
+
+	.mail {
+		float: none;
+		display: table;
+		margin: 0 auto;
+	}
+
+	.header__title {
+		margin: 90px 0 0 0;
+		font-size: 35px;
+	}
+
+	.subtitle {
+		font-size: 23px;
+		margin-bottom: 176px;
+	}
+
+	/* ------ */
+
+	.main-title {
+		margin-top: 50px;
+		margin-bottom: 40px;
+
+	}
+
+	.title {
+		margin-bottom: 25px;
+		font-size: 20px;
+	}
+
+	.text {
+		width: 100%;
+		text-align: justify;
+		word-spacing: 1px;
+	}
+
+	.text__paragraph {
+		margin-bottom: 20px;
+	}
+
+	.text__paragraph:last-child {
+		margin-bottom: 55px;
+	}
+
+	.rhombus {
+
+	}
+
+	.item__rhombus:first-child {
+		margin: 0 auto;
+		float: none;
+		display: table;
+	}
+
+	.item__rhombus {
+		margin: 20px auto;
+		float: none;
+		display: table;
+
+	}
+
+	.title_margin-top {
+		margin-top: 40px;
+	}
+
+	.social {
+		float: none;
+		display: table;
+		margin: 0 auto;
+	}
+
+	.profile {
+		text-align: center;
+		float: none;
+		margin: 20px 0 0 55px;
+		padding-left: 30px;
+	}
+
+	.skill_circle {
+		display: table;
+		margin: 0 auto;
+
+	}
+
+	.circle {
+		float: none;
+		margin: 30px 0;
+	}
+
+	.circle:first-child {
+		margin-top: 0;
+	}
+
+
+
+
+
+
+
+}
+
