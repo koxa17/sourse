@@ -125,12 +125,13 @@ $(function(){
 	$('[data-fancybox]').fancybox({
 		protect: true,
 		keyboard: false,
+		idleTime: false,
 		arrows: false,
 		infobar: false,
+		closeExisting: false,
+		smallBtn: true,
 		toolbar: false,
 		wheel: false,
-		clickContent: function(current, event) {
-   				 return current.type === "image" ? false : true;
- 		}
+		clickOutside: true
 		});
 });

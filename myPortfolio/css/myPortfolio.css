@@ -2,7 +2,7 @@ html, body {
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	min-width: 320px;
+	min-width: 290px;
 	overflow-x: hidden;
 }
 
@@ -160,6 +160,7 @@ ul, li {
 		 1px -1px 1px #000000,
 		-1px  1px 1px #000000,
 		 1px  1px 1px #000000;
+		 font-weight: bold;
 }
 
 .header__subtitle {
@@ -268,6 +269,7 @@ span {
 	margin-bottom: 60px;
 	font-family: 'Merriweather', serif;
 	text-align: center;
+	font-weight: bold;
 }
 
 .portfolio-item_img {
@@ -289,6 +291,7 @@ span {
 	font-size: 24px;
 	line-height: normal;
 	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 .portfolio-item_title a {
@@ -541,16 +544,15 @@ p.footer_social-icons a:hover {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 25vh; /* Location of the box */
+    padding-top: 15%; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity*/
 }
-
 
 .modal-content {
     position: relative;
@@ -627,14 +629,15 @@ p.footer_social-icons a:hover {
 
 .form-input {
 	margin-bottom: 50px;
-	font-weight: 700;
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #072767;
 	text-transform: uppercase;
 	letter-spacing: 1.6px;
 	width: 50%;
+	height: 40px;
 	border: 2px solid #072767;
-
+	font-size: 70%;
+	font-weight: 700;
 	border-radius: 50px;
 
 	padding: 8px 23px 8px 23px;
@@ -860,7 +863,7 @@ p.footer_social-icons a:hover {
 
     .menu {
 		font-size: 30px;
-		padding-top: 20%;
+		padding-top: 110px;
 	}
 
 	.menu_list {
@@ -876,11 +879,80 @@ p.footer_social-icons a:hover {
 		color: #f5e110;
 	}
 
-@media (max-width: 340px) {
-	.header_title {
-		font-size: 38px;
-		margin-bottom: 45px;
+	.modal-content {
+		width: 90%;
+	}
+	
+	.modal_title {
+		font-size: 22px;
 	}
 
+	.form-input {
+		width: 60%;
+	}
+
+	.button_submit {
+		width: 60%;
+	}
+
+	p.footer_social-icons {
+		font-size: 28px;
+	}
+
+}
+
+
+@media (max-width: 340px) {
+	html, body {
+		font-size: 14px;
+	}
+
+	.header_title {
+		font-size: 36px;
+		margin-bottom: 45px;
+	}
+	
+	.header_slogan {
+		font-size: 18px;
+	}
+
+	.header_subtitle {
+		font-size: 15px;
+	}
+	
+	.title {
+		font-size: 28px;
+	}
+	.portfolio-item_title {
+		font-size: 22px;
+
+	}
+	.features-text {
+		font-size: 15px;
+	}
+	.swiper-slide > .col-4 {
+		margin-bottom: 0px;
+	}
+
+	.modal_title {
+		font-size: 20px;
+	}
+
+	.form-input {
+		width: 85%;
+	}
+
+	.button_submit {
+		width: 85%;
+	}
+
+	p.footer_social-icons {
+		font-size: 20px;
+
+	}
+
+	p.footer_social-icons a {
+		margin-right: 15px;
+	}
 
 }
