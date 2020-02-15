@@ -474,10 +474,6 @@ p.footer_contact {
 	font-family: 'Merriweather', serif;
 }
 
-.footer_contact-data {
-
-}
-
 .footer_contact_number {
 	color: #fff;
 	text-decoration: none;
@@ -747,10 +743,6 @@ p.footer_social-icons a:hover {
 	.title {
 		font-size: 36px;
 		margin-bottom: 30px;
-	}
-
-	.technology-block {
-
 	}
 
 	.technology_paragraph {
