@@ -8,6 +8,32 @@ $(document).ready(function (){
 
 let arr = ['Lemon', 'apple', 'chery'];
 
+const number = 1;
+
+switch(number) {
+	case 0:
+		console.log('Вы ввели 0');
+		break;
+	case 1:
+		console.log('Вы ввели 1');
+		break;
+	case 2:
+	case 3:
+		console.log('Вы ввели число 2, а может и 3');
+		break;
+	default:
+		console.log('Вы ввели число больше 3');		
+}
+
+function sayHello(name) {
+	this.name = name;
+	console.log(`Привет ${name}!`);
+}
+
+sayHello('Николай');
+
+
+
 // outer: for(let i = 0; i < 3; i++) {
 // 	for(let j = 0; j < 3; j++) {
 // 		let input = prompt(`Значение на координатах (${i}, ${j})`, '');
@@ -17,16 +43,6 @@ let arr = ['Lemon', 'apple', 'chery'];
 // }
 // alert("Готово");
 
-for (let i = 0; i < 3; i++) {
-  alert( `number ${i}!` );
-}
-
-// for(let i = 0; i < 10; i++){
-// 	if(i % 2 || i == 0) {
-// 		continue;
-// 	}
-// 	alert(i)
-// }
 
 
 // let sum = 0;
