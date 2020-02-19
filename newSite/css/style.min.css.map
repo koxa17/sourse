@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,GACI,SAAU,CACb,EAGG,aAAsB","file":"style.min.css","sourcesContent":["h1 {\r\n    color: red;\r\n}\r\n\r\np {\r\n    color: rgb(0, 255, 21);\r\n}"]}
