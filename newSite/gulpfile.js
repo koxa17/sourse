@@ -8,8 +8,11 @@ const rename = require('gulp-rename');
 const autoprefixer = require('gulp-autoprefixer');
 //Подключает sorcemap
 const soursmaps = require('gulp-sourcemaps');
-//Подключаем browser-sync + создаем ее сразу
+//Подключаем browser-sync +                 создаем ее сразу
 const browserSync = require('browser-sync').create();
+// Подключаем Babel 
+// const babel = require('gulp-babel');
+
 
 function styleFile(done) {
     gulp.src('./app/scss/**/style.scss') //Выбираем файл
@@ -28,6 +31,16 @@ function styleFile(done) {
         .pipe(browserSync.stream()); //Обновление браузера при изменении стилей
     done();
 };
+
+// function jsFile(done) {
+//     gulp.src('.app/js/*.js')
+//     .pipe(babel({
+//         presets: ['babel-preset-es2015']
+//     }))
+//     .pipe(gulp.dest('dist/js'))
+//     .pipe(browserSync.stream());
+//     done();
+// };
 
 function watchFile() {
     gulp.watch('./app/scss/**/*.scss', styleFile); //Отслеживаем изменения (где, какую фунцию выполнить при изменении)
