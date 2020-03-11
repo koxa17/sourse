@@ -10,3 +10,5 @@ function multi(number = 1) {
         console.log(`${number} * ${i} = ${result}`);
     }
 }
+
+const $ = {};

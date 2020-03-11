@@ -3,23 +3,61 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Изучаю JS</title>
 </head>
 <body>
+	<div class="container">
+		<!-- Задача 1 -->
+		<!-- <div id="wrapper">
+			<img src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_chrome-128.png" alt="Хром">
+			<img src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_safari-128.png" alt="Сафари">
+			<img src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_firefox-128.png" alt="Мозила">
+			<img src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_opera-128.png" alt="Опера">
+		</div> -->
+
+		<!-- Задача 2 -->
+		<!-- <div class="block" id="block"></div>
+		<p>X:<span id="X">0</span>  Y:<span id="Y">0</span></p> -->
+		<!-- /.block -->
+
+		<!-- Задача 4 -->
 	
-	<input type="text" class="nameArray" id="nameArray" name="array"><br><br>
-	<button id="addArray">Добавить в Массив</button>
-	<button id="delArray">Удалить последний эллемент</button>
+		<!-- Задача 5 -->
+		
 
-	<div>Массив: <span id="out"></span></div>
-
-	<div class="outImage"></div>
-	<div class="outImage2"></div>
-
+		<form action="#" class="form" id="form">
+			<h2>Ежедневник</h2>
+			<p>День недели:
+				<select name="dayOfTheWeek" id="dayWeek">
+					<option value="Понедельник">Понедельник</option>
+					<option value="Вторник">Вторник</option>
+					<option value="Среда">Среда</option>
+					<option value="Четверг">Четверг</option>
+					<option value="Пятница">Пятница</option>
+					<option value="Суббота">Субота</option>
+					<option value="Воскресенье">Воскресенье</option>
+				</select>
+			</p>
+			<textarea name="notes" id="notes" cols="30" rows="5" placeholder="Напишите текст заметки..."></textarea>
+			<p><button class="btn_submit" id="btn_submit">Отправить</button> <button class="btn_print" id="btn_print">Распечатать</button></p>
+		</form>
 	
+		<div>
+			<ol id="out">
+	
+			</ol>
+		</div>
+		<h1>Практика JS</h1>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod perspiciatis earum quibusdam, porro saepe, ullam aspernatur possimus eligendi officia architecto pariatur cupiditate libero adipisci eius. Dolorum rem natus laborum optio.
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod perspiciatis earum quibusdam, porro saepe, ullam aspernatur possimus eligendi officia architecto pariatur cupiditate libero adipisci eius. Dolorum rem natus laborum optio.
+		</p>
+	</div>
 
-	<script src="js/func.js"></script>
-	<script src="js/main.js"></script>
+    
+	<script src="js/base.js"></script>
+	<script src="js/plugins/modal.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
