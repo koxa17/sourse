@@ -48,6 +48,31 @@ function sendRequest(method, url, body = null) {
 }
 
 
+// fetch
+// function sendRequest(method, url, body = null) {
+
+//     const headers = {
+//         'Content-Type': 'application/json',
+//         'x-rapidapi-host': 'rawg-video-games-database.p.rapidapi.com',
+//         'x-rapidapi-key': 'e334fc78cfmsh4e9519bbabf1bacp1522dfjsnb7ab200b8d75'
+//     }
+
+//     return fetch(url, {
+//         method: method,
+//         headers: headers,
+//     }).then(response => {
+//         if (response.ok) {
+//             return response.json();
+//         }
+//         return response.json().then(err => {
+//             const e = new Error('Что то пошло не так');
+//             e.data = err;
+//             throw e;
+//         })
+//     })
+
+// }
+
 send();
 
 function send() {
