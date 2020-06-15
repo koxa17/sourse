@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+}
+
+.test-task {
+    max-width: 90%;
+}
+
+.change-button {
+    width: 10%;
+}
+
+.strike {
+    text-decoration: line-through;
+    justify-content: space-between;
+}
+
+.fa-check-circle:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.fa-pencil-alt:hover {
+    color: rgb(214, 214, 111);
+    cursor: pointer;
+}
+
+.fa-trash:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-save:hover {
+    cursor: pointer;
+    color: royalblue;
+}
+
+.getHex {
+    position: absolute;
+    width: 200px;
+}
+
+.list-group>li {
+    width: 100%;
+}
+
+.sort {
+    background-color: cornflowerblue;
+    transition-duration: 0.4s;
+    display: flex;
+}
+
+.sort:hover {
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 0.4s;
+    outline-offset: -10px;
+    outline: 3px solid cornflowerblue;
+}
+
+.sort-text {
+    padding: 0;
+    margin: 0;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    display: none;
+    transform: rotate(-135deg);
+}
+
+.toggle-down {
+    transform: rotate(45deg);
+}
+
+.wrapper-score {
+    height: 100vh;
+}

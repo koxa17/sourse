@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/iconToDo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript - решает!</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mb-4">ToDo</h1>
+        <ul class="list-group mb-5">
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="text-task m-0">Задача 1</p>
+
+                <div class="change-button d-flex justify-content-around ">
+                    <i class="far fa-check-circle"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="text-task m-0">Задача 2</p>
+
+                <div class="change-button d-flex justify-content-around ">
+                    <i class="far fa-check-circle"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <p class="text-task m-0">Задача 3</p>
+
+                <div class="change-button d-flex justify-content-around ">
+                    <i class="far fa-check-circle"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+            </li>
+        </ul>
+
+
+        <div class="card bg-light">
+            <div class="card-header">Добавить новую задачу</div>
+            <div class="card-body">
+                <form id="form" name="task-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="addNewTask" placeholder="Текст задачи" required>
+                        <small id="emailHelp" class="form-text text-muted">Что делаем, сколько времени тратим, какой результат получаем.</small>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary  btn-lg active">Добавить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <ul class="list-group list-group-horizontal-sm header">
+
+            <li class="list-group-item sort" data-sort="id">
+                <p class="sort-change">id <i class="arrow"></i></p>
+            </li>
+
+            <li class="list-group-item sort" data-sort="name">
+                <p class="sort-change">name <i class="arrow"></i></p>
+            </li>
+
+            <li class="list-group-item sort" data-sort="username">
+                <p class="sort-change">username <i class="arrow"></i></p>
+            </li>
+
+            <li class="list-group-item sort" data-sort="phone">
+                <p class="sort-change">phone <i class="arrow"></i></p>
+            </li>
+
+        </ul>
+        <div class="users-list">
+        </div>
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/5768510ccf.js" crossorigin="anonymous"></script>
+    <script src="js/form.js"></script>
+    <!-- <script src="js/lesson.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
